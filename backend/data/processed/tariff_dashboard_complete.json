@@ -1,0 +1,864 @@
+{
+  "timestamp": "2025-04-07T09:02:20.963966",
+  "data": {
+    "metadata": {
+      "generated_at": "2025-04-07T09:02:20.962886",
+      "data_sources": [
+        "U.S. Census Bureau",
+        "Bureau of Economic Analysis",
+        "World Trade Organization"
+      ]
+    },
+    "global_map_data": [
+      {
+        "region": "TOTAL FOR ALL DISTRICTS",
+        "trade_deficit": -541236466600,
+        "exports": 1026485414767,
+        "imports": 1567721881367,
+        "effective_tariff": 3.5,
+        "code": "-"
+      },
+      {
+        "region": "NEW YORK CITY, NY",
+        "trade_deficit": -68376746848,
+        "exports": 87137163591,
+        "imports": 155513910439,
+        "effective_tariff": 3.5,
+        "code": "10"
+      },
+      {
+        "region": "LOS ANGELES, CA",
+        "trade_deficit": -117401375391,
+        "exports": 60125743604,
+        "imports": 177527118995,
+        "effective_tariff": 3.5,
+        "code": "27"
+      },
+      {
+        "region": "LAREDO, TX",
+        "trade_deficit": -56025818915,
+        "exports": 86631396321,
+        "imports": 142657215236,
+        "effective_tariff": 3.5,
+        "code": "23"
+      },
+      {
+        "region": "HOUSTON-GALVESTON, TX",
+        "trade_deficit": 62385442659,
+        "exports": 125118715779,
+        "imports": 62733273120,
+        "effective_tariff": 3.5,
+        "code": "53"
+      },
+      {
+        "region": "CHICAGO, IL",
+        "trade_deficit": -102370281212,
+        "exports": 39981311795,
+        "imports": 142351593007,
+        "effective_tariff": 3.5,
+        "code": "39"
+      },
+      {
+        "region": "DETROIT, MI",
+        "trade_deficit": -9446370156,
+        "exports": 74950238997,
+        "imports": 84396609153,
+        "effective_tariff": 3.5,
+        "code": "38"
+      },
+      {
+        "region": "NEW ORLEANS, LA",
+        "trade_deficit": 8418393913,
+        "exports": 68096227871,
+        "imports": 59677833958,
+        "effective_tariff": 3.5,
+        "code": "20"
+      },
+      {
+        "region": "SAVANNAH, GA",
+        "trade_deficit": -45944978797,
+        "exports": 36461925087,
+        "imports": 82406903884,
+        "effective_tariff": 3.5,
+        "code": "17"
+      },
+      {
+        "region": "CLEVELAND, OH",
+        "trade_deficit": -30578442960,
+        "exports": 30856728887,
+        "imports": 61435171847,
+        "effective_tariff": 3.5,
+        "code": "41"
+      },
+      {
+        "region": "SAN FRANCISCO, CA",
+        "trade_deficit": -22368074371,
+        "exports": 29812215280,
+        "imports": 52180289651,
+        "effective_tariff": 3.5,
+        "code": "28"
+      },
+      {
+        "region": "EL PASO, TX",
+        "trade_deficit": -20545618461,
+        "exports": 28318448971,
+        "imports": 48864067432,
+        "effective_tariff": 3.5,
+        "code": "24"
+      },
+      {
+        "region": "SEATTLE, WA",
+        "trade_deficit": -10827494279,
+        "exports": 30653773044,
+        "imports": 41481267323,
+        "effective_tariff": 3.5,
+        "code": "30"
+      },
+      {
+        "region": "MIAMI, FL",
+        "trade_deficit": 6156984273,
+        "exports": 38256430440,
+        "imports": 32099446167,
+        "effective_tariff": 3.5,
+        "code": "52"
+      },
+      {
+        "region": "LOW VALUE",
+        "trade_deficit": 28431373361,
+        "exports": 40221565548,
+        "imports": 11790192187,
+        "effective_tariff": 3.5,
+        "code": "70"
+      },
+      {
+        "region": "CHARLESTON, SC",
+        "trade_deficit": -19254881904,
+        "exports": 15334727494,
+        "imports": 34589609398,
+        "effective_tariff": 3.5,
+        "code": "16"
+      },
+      {
+        "region": "SAN DIEGO, CA",
+        "trade_deficit": -13805171883,
+        "exports": 17734811734,
+        "imports": 31539983617,
+        "effective_tariff": 3.5,
+        "code": "25"
+      },
+      {
+        "region": "BUFFALO, NY",
+        "trade_deficit": 3700105400,
+        "exports": 26045331500,
+        "imports": 22345226100,
+        "effective_tariff": 3.5,
+        "code": "09"
+      },
+      {
+        "region": "PHILADELPHIA, PA",
+        "trade_deficit": -26906135617,
+        "exports": 9975979215,
+        "imports": 36882114832,
+        "effective_tariff": 3.5,
+        "code": "11"
+      },
+      {
+        "region": "NORFOLK, VA",
+        "trade_deficit": -2455003202,
+        "exports": 20949659520,
+        "imports": 23404662722,
+        "effective_tariff": 3.5,
+        "code": "14"
+      },
+      {
+        "region": "DALLAS-FORT WORTH, TX",
+        "trade_deficit": -13086384881,
+        "exports": 15152646744,
+        "imports": 28239031625,
+        "effective_tariff": 3.5,
+        "code": "55"
+      },
+      {
+        "region": "PEMBINA, ND",
+        "trade_deficit": 5409809899,
+        "exports": 18829708119,
+        "imports": 13419898220,
+        "effective_tariff": 3.5,
+        "code": "34"
+      },
+      {
+        "region": "GREAT FALLS, MT",
+        "trade_deficit": -7467911104,
+        "exports": 11008564732,
+        "imports": 18476475836,
+        "effective_tariff": 3.5,
+        "code": "33"
+      },
+      {
+        "region": "OGDENSBURG, NY",
+        "trade_deficit": -7494227611,
+        "exports": 10272962339,
+        "imports": 17767189950,
+        "effective_tariff": 3.5,
+        "code": "07"
+      },
+      {
+        "region": "BALTIMORE, MD",
+        "trade_deficit": -14171470575,
+        "exports": 6891468162,
+        "imports": 21062938737,
+        "effective_tariff": 3.5,
+        "code": "13"
+      },
+      {
+        "region": "PORT ARTHUR, TX",
+        "trade_deficit": 12536799996,
+        "exports": 20040454565,
+        "imports": 7503654569,
+        "effective_tariff": 3.5,
+        "code": "21"
+      },
+      {
+        "region": "TAMPA, FL",
+        "trade_deficit": -15077797206,
+        "exports": 5452274598,
+        "imports": 20530071804,
+        "effective_tariff": 3.5,
+        "code": "18"
+      },
+      {
+        "region": "NOGALES, AZ",
+        "trade_deficit": -11945683276,
+        "exports": 6682223845,
+        "imports": 18627907121,
+        "effective_tariff": 3.5,
+        "code": "26"
+      },
+      {
+        "region": "MOBILE, AL",
+        "trade_deficit": -10768904791,
+        "exports": 6119294061,
+        "imports": 16888198852,
+        "effective_tariff": 3.5,
+        "code": "19"
+      },
+      {
+        "region": "SAN JUAN, PR",
+        "trade_deficit": -3751603517,
+        "exports": 8394188442,
+        "imports": 12145791959,
+        "effective_tariff": 3.5,
+        "code": "49"
+      },
+      {
+        "region": "ANCHORAGE, AK",
+        "trade_deficit": 3487564165,
+        "exports": 11357140341,
+        "imports": 7869576176,
+        "effective_tariff": 3.5,
+        "code": "31"
+      },
+      {
+        "region": "BOSTON, MA",
+        "trade_deficit": -8120250512,
+        "exports": 4527758209,
+        "imports": 12648008721,
+        "effective_tariff": 3.5,
+        "code": "04"
+      },
+      {
+        "region": "COLUMBIA-SNAKE, OR",
+        "trade_deficit": -418701265,
+        "exports": 8130861384,
+        "imports": 8549562649,
+        "effective_tariff": 3.5,
+        "code": "29"
+      },
+      {
+        "region": "WILMINGTON, NC",
+        "trade_deficit": -5382449981,
+        "exports": 4452628063,
+        "imports": 9835078044,
+        "effective_tariff": 3.5,
+        "code": "15"
+      },
+      {
+        "region": "MINNEAPOLIS, MN",
+        "trade_deficit": -10158452775,
+        "exports": 1133281034,
+        "imports": 11291733809,
+        "effective_tariff": 3.5,
+        "code": "35"
+      },
+      {
+        "region": "PORTLAND, ME",
+        "trade_deficit": -4156392347,
+        "exports": 3130854018,
+        "imports": 7287246365,
+        "effective_tariff": 3.5,
+        "code": "01"
+      },
+      {
+        "region": "ST. LOUIS, MO",
+        "trade_deficit": -9649873932,
+        "exports": 223657982,
+        "imports": 9873531914,
+        "effective_tariff": 3.5,
+        "code": "45"
+      },
+      {
+        "region": "WASHINGTON, DC",
+        "trade_deficit": -2360277572,
+        "exports": 2697468407,
+        "imports": 5057745979,
+        "effective_tariff": 3.5,
+        "code": "54"
+      },
+      {
+        "region": "DULUTH, MN",
+        "trade_deficit": -1851608601,
+        "exports": 2797865500,
+        "imports": 4649474101,
+        "effective_tariff": 3.5,
+        "code": "36"
+      },
+      {
+        "region": "HONOLULU, HI",
+        "trade_deficit": 2755909368,
+        "exports": 4314540259,
+        "imports": 1558630891,
+        "effective_tariff": 3.5,
+        "code": "32"
+      },
+      {
+        "region": "ST. ALBANS, VT",
+        "trade_deficit": -3440644277,
+        "exports": 1144241499,
+        "imports": 4584885776,
+        "effective_tariff": 3.5,
+        "code": "02"
+      },
+      {
+        "region": "PROVIDENCE, RI",
+        "trade_deficit": -5151845519,
+        "exports": 236315390,
+        "imports": 5388160909,
+        "effective_tariff": 3.5,
+        "code": "05"
+      },
+      {
+        "region": "U.S. VIRGIN ISLANDS",
+        "trade_deficit": 1322545503,
+        "exports": 1375420213,
+        "imports": 52874710,
+        "effective_tariff": 3.5,
+        "code": "51"
+      },
+      {
+        "region": "MILWAUKEE, WI",
+        "trade_deficit": -201843791,
+        "exports": 331559376,
+        "imports": 533403167,
+        "effective_tariff": 3.5,
+        "code": "37"
+      },
+      {
+        "region": "VESSELS UNDER OWN POWER",
+        "trade_deficit": -4272085,
+        "exports": 48330,
+        "imports": 4320415,
+        "effective_tariff": 3.5,
+        "code": "60"
+      }
+    ],
+    "sector_impact_data": [
+      {
+        "sector": "Agriculture",
+        "export_value": 73306924713,
+        "percentage": 42.0,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Textiles & Apparel",
+        "export_value": 36666601280,
+        "percentage": 21.0,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Chemicals",
+        "export_value": 28256179339,
+        "percentage": 16.2,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Energy",
+        "export_value": 10985332073,
+        "percentage": 6.3,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Plastics & Rubber",
+        "export_value": 7302749500,
+        "percentage": 4.2,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Miscellaneous",
+        "export_value": 6895269965,
+        "percentage": 4.0,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Pharmaceuticals",
+        "export_value": 5604362470,
+        "percentage": 3.2,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Raw Materials",
+        "export_value": 4042359896,
+        "percentage": 2.3,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Wood & Paper",
+        "export_value": 1282213775,
+        "percentage": 0.7,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      },
+      {
+        "sector": "Metals",
+        "export_value": 17929254,
+        "percentage": 0.0,
+        "tariff_impact": 0,
+        "gdp_contribution": 0,
+        "jobs_impact": 0
+      }
+    ],
+    "historical_trends": [
+      {
+        "year": "2020",
+        "exports": 1368780881688,
+        "imports": 2152142184432,
+        "trade_deficit": 783361302744,
+        "bea_balance": 0
+      },
+      {
+        "year": "2021",
+        "exports": 1685810098684,
+        "imports": 2668356859310,
+        "trade_deficit": 982546760626,
+        "bea_balance": 0
+      },
+      {
+        "year": "2022",
+        "exports": 2029370909650,
+        "imports": 3240791377236,
+        "trade_deficit": 1211420467586,
+        "bea_balance": 0
+      },
+      {
+        "year": "2023",
+        "exports": 2006963194604,
+        "imports": 3036108788282,
+        "trade_deficit": 1029145593678,
+        "bea_balance": 0
+      },
+      {
+        "year": "2024",
+        "exports": 2052970829534,
+        "imports": 3135443762734,
+        "trade_deficit": 1082472933200,
+        "bea_balance": 0
+      }
+    ],
+    "detailed_metrics": [
+      {
+        "hs_code": "01",
+        "description": "LIMESTONE, ME",
+        "export_value": 509726907,
+        "export_year": 3130854018,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "02",
+        "description": "HIGHGATE SPRINGS-ALBURG, VT",
+        "export_value": 144170330,
+        "export_year": 1144241499,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "04",
+        "description": "BOSTON, MA",
+        "export_value": 844667272,
+        "export_year": 4527758209,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "05",
+        "description": "PROVIDENCE, RI",
+        "export_value": 29730404,
+        "export_year": 236315390,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "07",
+        "description": "OGDENSBURG, NY",
+        "export_value": 1751391667,
+        "export_year": 10272962339,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "09",
+        "description": "BINGHAMTON REGIONAL AIRPORT, NY",
+        "export_value": 4549878095,
+        "export_year": 26045331500,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "10",
+        "description": "ALBANY, NY",
+        "export_value": 14165486219,
+        "export_year": 87137163591,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "11",
+        "description": "WILKES-BARRE/SCRANTON, PA",
+        "export_value": 1636117991,
+        "export_year": 9975979215,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "13",
+        "description": "BALTIMORE, MD",
+        "export_value": 1232757171,
+        "export_year": 6891468162,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "14",
+        "description": "RICHMOND-PETERSBURG, VA",
+        "export_value": 3432080556,
+        "export_year": 20949659520,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "15",
+        "description": "DURHAM, NC",
+        "export_value": 541208076,
+        "export_year": 4452628063,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "16",
+        "description": "GEORGETOWN, SC",
+        "export_value": 2869373397,
+        "export_year": 15334727494,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "17",
+        "description": "ATLANTA, GA",
+        "export_value": 6182310778,
+        "export_year": 36461925087,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "18",
+        "description": "SARASOTA-BRADENTON AIRPORT, FL",
+        "export_value": 909505286,
+        "export_year": 5452274598,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "19",
+        "description": "MOBILE, AL",
+        "export_value": 1030494040,
+        "export_year": 6119294061,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "20",
+        "description": "SHREVEPORT-BOSSIER CITY, LA",
+        "export_value": 11033113536,
+        "export_year": 68096227871,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "21",
+        "description": "PORT ARTHUR, TX",
+        "export_value": 3406755395,
+        "export_year": 20040454565,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "23",
+        "description": "LAREDO, TX",
+        "export_value": 14053719506,
+        "export_year": 86631396321,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "24",
+        "description": "FABENS, TX",
+        "export_value": 4984438087,
+        "export_year": 28318448971,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "25",
+        "description": "SAN YSIDRO, CA",
+        "export_value": 2952275832,
+        "export_year": 17734811734,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "26",
+        "description": "NACO, AZ",
+        "export_value": 1090084064,
+        "export_year": 6682223845,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "27",
+        "description": "MORRO BAY, CA",
+        "export_value": 10985332073,
+        "export_year": 60125743604,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "28",
+        "description": "MONTEREY, CA",
+        "export_value": 5529931923,
+        "export_year": 29812215280,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "29",
+        "description": "PORTLAND INTERNATIONAL AIRPORT, WA",
+        "export_value": 1096444746,
+        "export_year": 8130861384,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "30",
+        "description": "BLAINE, WA",
+        "export_value": 5604362470,
+        "export_year": 30653773044,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "31",
+        "description": "FAIRBANKS, AK",
+        "export_value": 2487311198,
+        "export_year": 11357140341,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "32",
+        "description": "HONOLULU, HI",
+        "export_value": 858602705,
+        "export_year": 4314540259,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "33",
+        "description": "BOZEMAN YELLOWSTONE USER FEE AIRPORT, BELGRADE, MT",
+        "export_value": 1816807014,
+        "export_year": 11008564732,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "34",
+        "description": "SHERWOOD, ND",
+        "export_value": 3105503846,
+        "export_year": 18829708119,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "35",
+        "description": "SUPERIOR, WI",
+        "export_value": 218800006,
+        "export_year": 1133281034,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "36",
+        "description": "INTERNATIONAL FALLS-RANIER, MN",
+        "export_value": 421623071,
+        "export_year": 2797865500,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "37",
+        "description": "MANITOWOC, WI",
+        "export_value": 67664006,
+        "export_year": 331559376,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "38",
+        "description": "MARQUETTE, MI",
+        "export_value": 12653490824,
+        "export_year": 74950238997,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "39",
+        "description": "ROCKFORD AIRPORT, IL",
+        "export_value": 7302749500,
+        "export_year": 39981311795,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "41",
+        "description": "TOLEDO-SANDUSKY, OH",
+        "export_value": 5524121971,
+        "export_year": 30856728887,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "45",
+        "description": "SPRINGFIELD, MO",
+        "export_value": 29337546,
+        "export_year": 223657982,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "49",
+        "description": "PONCE, PR",
+        "export_value": 1252876229,
+        "export_year": 8394188442,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "51",
+        "description": "CHARLOTTE AMALIE, VI",
+        "export_value": 168117803,
+        "export_year": 1375420213,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "52",
+        "description": "FORT PIERCE, FL",
+        "export_value": 6357365762,
+        "export_year": 38256430440,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "53",
+        "description": "HOUSTON INTERCONTINENTAL AIRPORT, TX",
+        "export_value": 20680424140,
+        "export_year": 125118715779,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "54",
+        "description": "WASHINGTON, DC",
+        "export_value": 481658401,
+        "export_year": 2697468407,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "55",
+        "description": "FORT WORTH ALLIANCE AIRPORT, TX",
+        "export_value": 2698840210,
+        "export_year": 15152646744,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "59",
+        "description": NaN,
+        "export_value": 756072993,
+        "export_year": 5023819580,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "60",
+        "description": "VESSELS UNDER OWN POWER",
+        "export_value": 0,
+        "export_year": 48330,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "70",
+        "description": "LOW VALUE",
+        "export_value": 6895269965,
+        "export_year": 40221565548,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      },
+      {
+        "hs_code": "80",
+        "description": "MAIL SHIPMENTS",
+        "export_value": 17929254,
+        "export_year": 101774897,
+        "tariff_rate": 0,
+        "supply_chain_risk": 0
+      }
+    ]
+  }
+}

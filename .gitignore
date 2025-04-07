@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+venv/
+.env
+
+# Docker
+*.log
+# Frontend build files (if applicable)
+node_modules/
+build/
+dist/
+
+# VSCode settings
+.vscode/
