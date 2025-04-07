@@ -1,0 +1,39 @@
+/* frontend/src/App.css */
+.app {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #6b7280;
+  }
+  
+  .map-container {
+    width: 100%;
+    height: 500px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  /* Custom styling for leaflet elements */
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .leaflet-tooltip {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leaflet-popup-content {
+    margin: 0.5rem 0.75rem;
+    line-height: 1.5;
+  }
