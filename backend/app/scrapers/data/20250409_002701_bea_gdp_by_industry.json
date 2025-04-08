@@ -1,0 +1,46 @@
+{
+    "BEAAPI": {
+        "Request": {
+            "RequestParam": [
+                {
+                    "ParameterName": "METHOD",
+                    "ParameterValue": "GETDATA"
+                },
+                {
+                    "ParameterName": "DATASETNAME",
+                    "ParameterValue": "GDPBYINDUSTRY"
+                },
+                {
+                    "ParameterName": "TABLEID",
+                    "ParameterValue": "1"
+                },
+                {
+                    "ParameterName": "FREQUENCY",
+                    "ParameterValue": "A"
+                },
+                {
+                    "ParameterName": "YEAR",
+                    "ParameterValue": "LAST5"
+                },
+                {
+                    "ParameterName": "INDUSTRY",
+                    "ParameterValue": "ALL"
+                },
+                {
+                    "ParameterName": "USERID",
+                    "ParameterValue": "EB3C36A8-1BE3-49B5-8F90-347C5281ED01"
+                },
+                {
+                    "ParameterName": "RESULTFORMAT",
+                    "ParameterValue": "JSON"
+                }
+            ]
+        },
+        "Results": {
+            "Error": {
+                "APIErrorCode": "98",
+                "APIErrorDescription": "Internal API error retrieving data."
+            }
+        }
+    }
+}

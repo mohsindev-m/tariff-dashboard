@@ -1,0 +1,47 @@
+{
+    "BEAAPI": {
+        "Request": {
+            "RequestParam": [
+                {
+                    "ParameterName": "METHOD",
+                    "ParameterValue": "GETDATA"
+                },
+                {
+                    "ParameterName": "DATASETNAME",
+                    "ParameterValue": "REGIONAL"
+                },
+                {
+                    "ParameterName": "TABLENAME",
+                    "ParameterValue": "SAGDP9N"
+                },
+                {
+                    "ParameterName": "LINECODE",
+                    "ParameterValue": "1"
+                },
+                {
+                    "ParameterName": "GEOFIPS",
+                    "ParameterValue": "STATE"
+                },
+                {
+                    "ParameterName": "YEAR",
+                    "ParameterValue": "LAST5"
+                },
+                {
+                    "ParameterName": "USERID",
+                    "ParameterValue": "EB3C36A8-1BE3-49B5-8F90-347C5281ED01"
+                },
+                {
+                    "ParameterName": "RESULTFORMAT",
+                    "ParameterValue": "JSON"
+                }
+            ]
+        },
+        "Error": {
+            "APIErrorCode": "40",
+            "APIErrorDescription": "The dataset requested requires parameters that were missing from the request.",
+            "ErrorDetail": {
+                "Description": "Invalid Value for Parameter TableName"
+            }
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "BEAAPI": {
+        "Request": {
+            "RequestParam": [
+                {
+                    "ParameterName": "METHOD",
+                    "ParameterValue": "GETDATA"
+                },
+                {
+                    "ParameterName": "DATASETNAME",
+                    "ParameterValue": "ITA"
+                },
+                {
+                    "ParameterName": "INDICATOR",
+                    "ParameterValue": "BALGDS"
+                },
+                {
+                    "ParameterName": "AREAORCOUNTRY",
+                    "ParameterValue": "CHINA"
+                },
+                {
+                    "ParameterName": "FREQUENCY",
+                    "ParameterValue": "A"
+                },
+                {
+                    "ParameterName": "YEAR",
+                    "ParameterValue": "2015,2016,2017,2018,2019"
+                },
+                {
+                    "ParameterName": "USERID",
+                    "ParameterValue": "EB3C36A8-1BE3-49B5-8F90-347C5281ED01"
+                },
+                {
+                    "ParameterName": "RESULTFORMAT",
+                    "ParameterValue": "JSON"
+                }
+            ]
+        },
+        "Results": {
+            "TsLastUpdated": "2025-03-20 08:30:00.000",
+            "Dimensions": [
+                {
+                    "Ordinal": "1",
+                    "Name": "Indicator",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "2",
+                    "Name": "AreaOrCountry",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "3",
+                    "Name": "Frequency",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "4",
+                    "Name": "Year",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "5",
+                    "Name": "TimeSeriesId",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "6",
+                    "Name": "TimeSeriesDescription",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "7",
+                    "Name": "TimePeriod",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "8",
+                    "Name": "CL_UNIT",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "9",
+                    "Name": "UNIT_MULT",
+                    "DataType": "string",
+                    "IsValue": "0"
+                },
+                {
+                    "Ordinal": "10",
+                    "Name": "DataValue",
+                    "DataType": "numeric",
+                    "IsValue": "1"
+                }
+            ],
+            "Data": [
+                {
+                    "Indicator": "BalGds",
+                    "AreaOrCountry": "China",
+                    "Frequency": "A",
+                    "Year": "2015",
+                    "TimeSeriesId": "TSI_ItaBalGdsChina_A",
+                    "TimeSeriesDescription": "Balance on goods; China; annual",
+                    "TimePeriod": "2015",
+                    "CL_UNIT": "USD",
+                    "UNIT_MULT": "6",
+                    "DataValue": "-367567",
+                    "NoteRef": ""
+                },
+                {
+                    "Indicator": "BalGds",
+                    "AreaOrCountry": "China",
+                    "Frequency": "A",
+                    "Year": "2016",
+                    "TimeSeriesId": "TSI_ItaBalGdsChina_A",
+                    "TimeSeriesDescription": "Balance on goods; China; annual",
+                    "TimePeriod": "2016",
+                    "CL_UNIT": "USD",
+                    "UNIT_MULT": "6",
+                    "DataValue": "-347098",
+                    "NoteRef": ""
+                },
+                {
+                    "Indicator": "BalGds",
+                    "AreaOrCountry": "China",
+                    "Frequency": "A",
+                    "Year": "2017",
+                    "TimeSeriesId": "TSI_ItaBalGdsChina_A",
+                    "TimeSeriesDescription": "Balance on goods; China; annual",
+                    "TimePeriod": "2017",
+                    "CL_UNIT": "USD",
+                    "UNIT_MULT": "6",
+                    "DataValue": "-374265",
+                    "NoteRef": ""
+                },
+                {
+                    "Indicator": "BalGds",
+                    "AreaOrCountry": "China",
+                    "Frequency": "A",
+                    "Year": "2018",
+                    "TimeSeriesId": "TSI_ItaBalGdsChina_A",
+                    "TimeSeriesDescription": "Balance on goods; China; annual",
+                    "TimePeriod": "2018",
+                    "CL_UNIT": "USD",
+                    "UNIT_MULT": "6",
+                    "DataValue": "-417267",
+                    "NoteRef": ""
+                },
+                {
+                    "Indicator": "BalGds",
+                    "AreaOrCountry": "China",
+                    "Frequency": "A",
+                    "Year": "2019",
+                    "TimeSeriesId": "TSI_ItaBalGdsChina_A",
+                    "TimeSeriesDescription": "Balance on goods; China; annual",
+                    "TimePeriod": "2019",
+                    "CL_UNIT": "USD",
+                    "UNIT_MULT": "6",
+                    "DataValue": "-341690",
+                    "NoteRef": ""
+                }
+            ]
+        }
+    }
+}

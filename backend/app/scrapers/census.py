@@ -1,11 +1,11 @@
 import os
-import requests
+import time
 import json
 import logging
+import requests
 import pandas as pd
-import time
-from datetime import datetime
 from pathlib import Path
+from datetime import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -23,7 +23,7 @@ logger = logging.getLogger("Census_API_Client")
 # Global Variables & Configuration
 # -----------------------------------------------------------------------------
 API_BASE_URL = "https://api.census.gov/data"
-CENSUS_API_KEY = os.getenv("CENSUS_API_KEY", "903043b59ad55c323132bd1ba3964e5b04d796cd")
+CENSUS_API_KEY = os.getenv("CENSUS_API_KEY")
 logger.info(f"Using Census API key: {CENSUS_API_KEY[:4]}...{CENSUS_API_KEY[-4:] if len(CENSUS_API_KEY) > 8 else ''}")
 
 CACHE_DIR = "cache/census_api"

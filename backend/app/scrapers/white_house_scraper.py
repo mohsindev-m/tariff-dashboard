@@ -1,150 +1,208 @@
-import os
-import json
-import logging
-from datetime import datetime
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
 import time
+import random
+import logging
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+from urllib3.util.retry import Retry
+from requests.adapters import HTTPAdapter
 
-# Configure logging
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    level=logging.DEBUG, 
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("combined_scraper_debug.log"),
+        logging.StreamHandler()
+    ]
 )
-logger = logging.getLogger("WhiteHouseSeleniumScraper")
+# ------------------------------
+# Configuration and Constants
+# ------------------------------
+BASE_URL = "https://www.whitehouse.gov/presidential-actions/"
+MAX_PAGES = 10 
+REQUEST_DELAY = 1  
 
-# Set debug flag to log structure details
-DEBUG_STRUCTURE = True
 
-# Updated URL for White House Statements & Releases
-BASE_URL = "https://www.whitehouse.gov/briefing-room/statements-releases/"
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
+    "(KHTML, like Gecko) Version/14.0.3 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0",
+    "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36",
+    "Mozilla/5.0 (iPad; CPU OS 13_6 like Mac OS X) AppleWebKit/605.1.15 "
+    "(KHTML, like Gecko) Version/13.1.2 Mobile/15E148 Safari/604.1"
+]
 
-def init_driver():
-    """Initialize and return a headless Selenium Chrome driver."""
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--window-size=1920,1080")
-    # Add additional options if needed
-    driver = webdriver.Chrome(options=chrome_options)
-    return driver
+# Create a persistent session with a retry strategy for robustness
+session = requests.Session()
+retry_strategy = Retry(
+    total=5,
+    backoff_factor=0.3,
+    status_forcelist=[500, 502, 503, 504],
+    allowed_methods=["HEAD", "GET", "OPTIONS"]
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session.mount("http://", adapter)
+session.mount("https://", adapter)
 
-def scrape_press_releases(keyword="tariff", pages=1):
-    """
-    Use Selenium to scrape White House press releases that mention a given keyword.
-    
-    Parameters:
-        keyword (str): Keyword to filter press releases (case-insensitive).
-        pages (int): Number of pages to scrape.
-        
-    Returns:
-        list of dict: List of press releases with title, URL, date, and summary.
-    """
-    driver = init_driver()
-    press_releases = []
+def get_random_headers():
+    """Generate dynamic headers with a random user agent."""
+    headers = {
+        "User-Agent": random.choice(USER_AGENTS),
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate"
+    }
+    logging.debug(f"Generated headers: {headers}")
+    return headers
 
-    for page in range(1, pages + 1):
-        # Construct URL for the current page
-        url = BASE_URL if page == 1 else f"{BASE_URL}page/{page}/"
-        logger.info(f"Loading URL: {url}")
-        try:
-            driver.get(url)
-            # Wait for JavaScript to load content (adjust time as necessary)
-            time.sleep(5)
-        except Exception as e:
-            logger.error(f"Failed to load page {page}: {e}")
-            continue
-        
-        # Get rendered page source
-        html = driver.page_source
-        if DEBUG_STRUCTURE:
-            # Log the first 500 characters of the rendered HTML
-            logger.debug(f"Rendered HTML snippet (page {page}): {html[:500]}")
-        
-        # Attempt to find press release items.
-        # Inspect the rendered HTML (using your browser's dev tools) to determine the correct selector.
-        # Common candidates might be <article>, <div class="listing-item">, etc.
-        items = driver.find_elements(By.CSS_SELECTOR, "article")  # Adjust this selector as needed
-        logger.info(f"Found {len(items)} article elements on page {page}.")
-        
-        for idx, item in enumerate(items, start=1):
-            try:
-                # Log raw HTML snippet for debugging (first 300 characters)
-                if DEBUG_STRUCTURE:
-                    logger.debug(f"Article {idx} HTML snippet: {item.get_attribute('outerHTML')[:300]}")
-                
-                # Extract title (try h2 or h3 inside the item)
-                try:
-                    title_elem = item.find_element(By.XPATH, ".//h2 | .//h3")
-                    title = title_elem.text.strip()
-                except Exception:
-                    title = "No Title"
-                
-                # Extract URL from the title link if available
-                try:
-                    link_elem = title_elem.find_element(By.TAG_NAME, "a")
-                    url_link = link_elem.get_attribute("href")
-                except Exception:
-                    url_link = ""
-                
-                # Extract publication date from a <time> element
-                try:
-                    time_elem = item.find_element(By.TAG_NAME, "time")
-                    pub_date = time_elem.get_attribute("datetime").strip()
-                except Exception:
-                    pub_date = ""
-                
-                # Extract summary text from a <p> or div with summary-like class
-                try:
-                    summary_elem = item.find_element(By.XPATH, ".//p")
-                    summary = summary_elem.text.strip()
-                except Exception:
-                    summary = ""
-                
-                # Check if the keyword is in the title or summary
-                if keyword.lower() not in title.lower() and keyword.lower() not in summary.lower():
-                    continue
-                
-                press_releases.append({
-                    "title": title,
-                    "url": url_link,
-                    "date": pub_date,
-                    "summary": summary
-                })
-            except Exception as e:
-                logger.error(f"Error processing article {idx} on page {page}: {e}")
-    
-    driver.quit()
-    return press_releases
-
-def save_press_releases(data, filename="whitehouse_press_releases.json"):
-    """
-    Save the scraped press releases to a timestamped JSON file.
-    
-    Parameters:
-        data (list): List of press release dictionaries.
-        filename (str): Base filename.
-        
-    Returns:
-        str: Filepath of the saved file.
-    """
-    os.makedirs("data", exist_ok=True)
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filepath = os.path.join("data", f"{timestamp}_{filename}")
+def fetch_page(url):
+    """Fetch page content with retries, error handling, and logging."""
+    headers = get_random_headers()
     try:
-        with open(filepath, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4)
-        logger.info(f"Press releases saved to {filepath}")
-    except Exception as e:
-        logger.error(f"Error saving data: {e}")
-    return filepath
+        logging.info(f"Fetching URL: {url}")
+        response = session.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        logging.info(f"Success: {url} responded with {response.status_code}")
+        logging.debug(f"Response headers: {response.headers}")
+        return response.content
+    except requests.RequestException as e:
+        logging.error(f"Error fetching {url}: {e}")
+        return None
 
-def main():
-    releases = scrape_press_releases(keyword="tariff", pages=2)
-    logger.info(f"Scraped {len(releases)} press releases containing the keyword 'tariff'.")
-    if releases:
-        save_press_releases(releases)
+def parse_post_list(content, base_url):
+    """
+    Parse the listing page to extract post details:
+      - Title
+      - URL (link to full content)
+      - Publication date
+      - Categories (as comma-separated string)
+    """
+    soup = BeautifulSoup(content, "html.parser")
+    posts = []
+
+    for li in soup.find_all("li", class_="wp-block-post"):
+        try:
+            title_tag = li.find("h2", class_="wp-block-post-title")
+            a_tag = title_tag.find("a") if title_tag else None
+            title = a_tag.get_text(strip=True) if a_tag else "No Title"
+            url = urljoin(base_url, a_tag["href"]) if a_tag and a_tag.has_attr("href") else None
+            time_tag = li.find("time")
+            pub_date = time_tag["datetime"] if time_tag and time_tag.has_attr("datetime") else "Unknown Date"
+            categories = []
+            cat_div = li.find("div", class_="taxonomy-category")
+            if cat_div:
+                for cat in cat_div.find_all("a"):
+                    categories.append(cat.get_text(strip=True))
+            post_data = {
+                "title": title,
+                "url": url,
+                "pub_date": pub_date,
+                "categories": ", ".join(categories)
+            }
+            posts.append(post_data)
+            logging.debug(f"Extracted post: {post_data}")
+        except Exception as e:
+            logging.error(f"Error parsing post in listing: {e}")
+    logging.info(f"Parsed {len(posts)} posts from the current page.")
+    return posts
+
+def scrape_full_text(post_url):
+    """
+    Scrape the full text content from an individual post page.
+    First attempt extraction from a div with the class 'entry-content'
+    (used in your manual scraper) and if not found, fallback to 'wp-block-group'
+    (used in your enterprise scraper).
+    """
+    content = fetch_page(post_url)
+    if not content:
+        return ""
+    soup = BeautifulSoup(content, "html.parser")
+    
+    # Try primary selector from the second scraper
+    entry_div = soup.find("div", class_="entry-content")
+    if entry_div:
+        paragraphs = entry_div.find_all("p")
+        full_text = "\n\n".join(p.get_text(strip=True) for p in paragraphs)
+        logging.info(f"Scraped full text from {post_url} using 'entry-content' (length: {len(full_text)} characters)")
+        return full_text
+
+    # Fallback: use the selector from the first scraper
+    group_div = soup.find("div", class_="wp-block-group")
+    if group_div:
+        full_text = group_div.get_text(separator=" ", strip=True)
+        logging.info(f"Scraped full text from {post_url} using 'wp-block-group' (length: {len(full_text)} characters)")
+        return full_text
+
+    logging.info(f"No content container found for {post_url}")
+    return ""
+
+def find_next_page(content, current_url):
+    """
+    Discover the next page URL from pagination links.
+    Checks first for navigation inside a <nav> with class 'pagination',
+    then looks for any <a> with "Next" in its text.
+    """
+    soup = BeautifulSoup(content, "html.parser")
+    next_link = None
+    pagination = soup.find("nav", class_="pagination")
+    if pagination:
+        a_next = pagination.find("a", string=lambda s: s and "Next" in s)
+        if a_next and a_next.has_attr("href"):
+            next_link = urljoin(current_url, a_next["href"])
+    else:
+        a_next = soup.find("a", string=lambda s: s and "Next" in s)
+        if a_next and a_next.has_attr("href"):
+            next_link = urljoin(current_url, a_next["href"])
+    if next_link:
+        logging.info(f"Found next page: {next_link}")
+    else:
+        logging.info("No next page found.")
+    return next_link
+
+def enterprise_scraper(start_url, max_pages):
+    """
+    Scrape multiple pages by processing the listing, 
+    following internal links for full content, and handling pagination.
+    """
+    current_url = start_url
+    all_posts = []
+    page_count = 0
+
+    while current_url and page_count < max_pages:
+        logging.info(f"Processing page {page_count + 1}: {current_url}")
+        page_content = fetch_page(current_url)
+        if not page_content:
+            logging.error(f"Failed to fetch content from {current_url}. Stopping pagination.")
+            break
+
+        posts = parse_post_list(page_content, current_url)
+        for post in posts:
+            if post["url"]:
+                logging.debug(f"Scraping full text for post: {post['title']} from {post['url']}")
+                post["full_text"] = scrape_full_text(post["url"])
+            else:
+                post["full_text"] = ""
+            all_posts.append(post)
+            time.sleep(REQUEST_DELAY)  # Pause between post requests
+
+        next_page = find_next_page(page_content, current_url)
+        current_url = next_page
+        page_count += 1
+        time.sleep(REQUEST_DELAY)  # Pause between page requests
+
+    logging.info(f"Scraping complete. Total posts collected: {len(all_posts)}")
+    return all_posts
+
+def store_to_excel(data, filename="scraped_data.xlsx"):
+    """Store scraped data into an Excel file using pandas."""
+    df = pd.DataFrame(data)
+    df.to_excel(filename, index=False)
+    logging.info(f"Data successfully written to {filename}")
 
 if __name__ == "__main__":
-    main()
+    scraped_posts = enterprise_scraper(BASE_URL, MAX_PAGES)
+    store_to_excel(scraped_posts)
+    print("Scraping complete.")
