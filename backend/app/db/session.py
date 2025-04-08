@@ -1,27 +1,20 @@
-import motor.motor_asyncio
-from ..core.config import settings
-import os
-import logging
+from app.core.config import settings
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
 
-logger = logging.getLogger(__name__)
+engine = create_engine(
+    settings.SQLALCHEMY_DATABASE_URI,
+    connect_args={"check_same_thread": False} if settings.SQLALCHEMY_DATABASE_URI.startswith("sqlite") else {}
+)
 
-# MongoDB connection (if you want to store results)
-client = None
-db = None
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-def connect_to_mongo():
-    global client, db
+Base = declarative_base()
+
+def get_db():
+    db = SessionLocal()
     try:
-        mongo_url = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
-        client = motor.motor_asyncio.AsyncIOMotorClient(mongo_url)
-        db = client.tariff_dashboard
-        logger.info("Connected to MongoDB")
-        return db
-    except Exception as e:
-        logger.error(f"Failed to connect to MongoDB: {e}")
-        return None
-
-async def get_tariff_collection():
-    if db is None:
-        connect_to_mongo()
-    return db.tariff_data if db else None
+        yield db
+    finally:
+        db.close()

@@ -1,30 +1,39 @@
 import os
-from pydantic_settings import BaseSettings
+from typing import List
 from functools import lru_cache
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     API_V1_STR: str = "/api"
     PROJECT_NAME: str = "Tariff Dashboard API"
     
+    # Database settings – note the DB_PATH is defined here.
+    SQLALCHEMY_DATABASE_URI: str = os.getenv(
+        "DATABASE_URL", 
+        "sqlite:///./tariff_dashboard.db"
+    )
+    DB_PATH: str = os.getenv("DB_PATH", "./db/tariff_dashboard.sqlite")
+    
     # External API keys
-    CENSUS_API_KEY: str = os.getenv("CENSUS_API_KEY", "903043b59ad55c323132bd1ba3964e5b04d796cd")
-    BEA_API_KEY: str = os.getenv("BEA_API_KEY", "EB3C36A8-1BE3-49B5-8F90-347C5281ED01")
-    WTO_API_KEY: str = os.getenv("WTO_API_KEY", "36faf295023942b99db1af50883c2398")
+    CENSUS_API_KEY: str = os.getenv("CENSUS_API_KEY")
+    BEA_API_KEY: str = os.getenv("BEA_API_KEY")
+    WTO_API_KEY: str = os.getenv("WTO_API_KEY")
+    NEWSAPI_KEY: str = os.getenv("NEWSAPI_KEY")
     
-    # Database settings
-    MONGODB_URL: str = os.getenv("MONGODB_URL", "mongodb://localhost:27017")
-    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "tariff_dashboard")
-    
-    # Cache settings
-    CACHE_DIR: str = os.getenv("CACHE_DIR", "data/processed")
-    CACHE_EXPIRATION: int = int(os.getenv("CACHE_EXPIRATION", "86400"))  # 24 hours
+    # Pipeline settings
+    DATA_DIR: str = os.getenv("DATA_DIR", "./data")
+    CACHE_DIR: str = os.getenv("CACHE_DIR", "./cache")
     
     # CORS settings
-    BACKEND_CORS_ORIGINS: list = ["*"]  # For development
-
+    BACKEND_CORS_ORIGINS: List[str] = [
+        "http://localhost:3000", 
+        "http://localhost:3001",  
+        "http://localhost"
+    ]
+    
     class Config:
-        env_file = ".env"
         case_sensitive = True
+        env_file = ".env"
 
 @lru_cache()
 def get_settings():

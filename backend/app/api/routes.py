@@ -1,102 +1,94 @@
-from fastapi import APIRouter, Depends, HTTPException, Query, BackgroundTasks
-from fastapi.responses import JSONResponse
-from typing import List, Dict, Any, Optional
-import logging
+from fastapi import APIRouter, Depends, BackgroundTasks
+from app.services.tariff_pipeline import get_pipeline, TariffDataPipeline
 
-from ..services.tariff_service import TariffDataService
+router = APIRouter(prefix="/api", tags=["dashboard"])
 
-# Initialize router
-router = APIRouter(prefix="/api", tags=["tariff"])
+# Get dashboard data
+@router.get("/dashboard")
+async def get_dashboard_data(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return all dashboard data"""
+    data = pipeline.get_dashboard_api_data()
+    return {"status": "success", "data": data}
 
-# Initialize logger
-logger = logging.getLogger(__name__)
+# Heatmap data
+@router.get("/heatmap")
+async def get_heatmap_data(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return data for the global heatmap"""
+    data = pipeline.get_dashboard_api_data()
+    return {"status": "success", "data": data.get('heatmap_data', [])}
 
-# Create a service instance (for simplicity, using a global instance)
-tariff_service = TariffDataService()
+# Sector chart data
+@router.get("/sectors")
+async def get_sector_data(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return data for the sector pie chart"""
+    data = pipeline.get_dashboard_api_data()
+    return {"status": "success", "data": data.get('sector_data', [])}
 
-@router.get("/dashboard", response_model=Dict[str, Any])
-async def get_complete_dashboard(
-    force_refresh: bool = Query(False, description="Force data refresh from sources")
-):
-    """
-    Get complete dashboard data from all sources (Census, BEA, WTO).
-    This endpoint combines trade balances, sector data, historical trends,
-    and detailed metrics into a single comprehensive dataset.
-    """
-    try:
-        data = await tariff_service.get_dashboard_data(force_refresh=force_refresh)
-        return data
-    except Exception as e:
-        logger.error(f"Error retrieving dashboard data: {e}")
-        raise HTTPException(status_code=500, detail=f"Error retrieving dashboard data: {str(e)}")
+# Historical trends data
+@router.get("/timeseries")
+async def get_timeseries_data(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return data for the historical line chart"""
+    data = pipeline.get_dashboard_api_data()
+    return {"status": "success", "data": data.get('time_series', [])}
 
-@router.get("/map", response_model=List[Dict[str, Any]])
-async def get_map_data():
-    """
-    Get global map data for tariff visualization.
-    This data includes trade balance, effective tariff rates,
-    and other metrics by region/country.
-    """
-    try:
-        data = await tariff_service.get_global_map_data()
-        return data
-    except Exception as e:
-        logger.error(f"Error retrieving map data: {e}")
-        raise HTTPException(status_code=500, detail=f"Error retrieving map data: {str(e)}")
+# Detailed table data
+@router.get("/table")
+async def get_table_data(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return data for the detailed metrics table"""
+    data = pipeline.get_dashboard_api_data()
+    return {"status": "success", "data": data.get('detail_table', {})}
 
-@router.get("/sectors", response_model=List[Dict[str, Any]])
-async def get_sector_data():
-    """
-    Get sector-specific tariff impact data.
-    This data includes export values, tariff impacts, and 
-    GDP contributions by economic sector.
-    """
-    try:
-        data = await tariff_service.get_sector_impact_data()
-        return data
-    except Exception as e:
-        logger.error(f"Error retrieving sector data: {e}")
-        raise HTTPException(status_code=500, detail=f"Error retrieving sector data: {str(e)}")
+# Country list
+@router.get("/countries")
+async def get_countries(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return list of all countries with tariff measures"""
+    data = pipeline.get_dashboard_api_data()
+    if 'detail_table' in data and 'countries' in data['detail_table']:
+        return {"status": "success", "data": data['detail_table']['countries']}
+    return {"status": "success", "data": []}
 
-@router.get("/trends", response_model=List[Dict[str, Any]])
-async def get_historical_trends():
-    """
-    Get historical trade trends.
-    This data includes exports, imports, trade deficit,
-    and balance over time.
-    """
-    try:
-        data = await tariff_service.get_historical_trends()
-        return data
-    except Exception as e:
-        logger.error(f"Error retrieving historical trends: {e}")
-        raise HTTPException(status_code=500, detail=f"Error retrieving historical trends: {str(e)}")
+# Industry list
+@router.get("/industries")
+async def get_industries(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return list of all industries with tariff measures"""
+    data = pipeline.get_dashboard_api_data()
+    if 'detail_table' in data and 'industries' in data['detail_table']:
+        return {"status": "success", "data": data['detail_table']['industries']}
+    return {"status": "success", "data": []}
 
-@router.get("/metrics", response_model=List[Dict[str, Any]])
-async def get_detailed_metrics():
-    """
-    Get detailed metrics for tariff analysis.
-    This data includes HS code-level exports, tariff rates,
-    and supply chain risk metrics.
-    """
-    try:
-        data = await tariff_service.get_detailed_metrics()
-        return data
-    except Exception as e:
-        logger.error(f"Error retrieving detailed metrics: {e}")
-        raise HTTPException(status_code=500, detail=f"Error retrieving detailed metrics: {str(e)}")
+# Recent tariff measures
+@router.get("/measures")
+async def get_measures(pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Return recent tariff measures"""
+    import sqlite3
+    import json
+    
+    conn = sqlite3.connect(pipeline.db_path)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+    cursor.execute("""
+        SELECT id, title, publication_date, affected_countries, affected_industries, 
+               tariff_type, status
+        FROM tariff_measures
+        ORDER BY publication_date DESC
+        LIMIT 50
+    """)
+    measures = [dict(row) for row in cursor.fetchall()]
+    conn.close()
+    
+    # Process JSON fields
+    for measure in measures:
+        if 'affected_countries' in measure:
+            measure['affected_countries'] = json.loads(measure['affected_countries'])
+        if 'affected_industries' in measure:
+            measure['affected_industries'] = json.loads(measure['affected_industries'])
+    
+    return {"status": "success", "data": measures}
 
-@router.post("/refresh", response_model=Dict[str, Any])
-async def refresh_data(background_tasks: BackgroundTasks):
-    """
-    Trigger a background refresh of all tariff data.
-    This endpoint initiates a complete refresh of data from all sources
-    without blocking the response.
-    """
-    try:
-        # Queue the refresh to happen in the background
-        background_tasks.add_task(tariff_service.get_dashboard_data, force_refresh=True)
-        return {"status": "success", "message": "Data refresh initiated"}
-    except Exception as e:
-        logger.error(f"Error initiating data refresh: {e}")
-        raise HTTPException(status_code=500, detail=f"Error initiating data refresh: {str(e)}")
+# Update endpoint
+@router.post("/update")
+async def trigger_update(background_tasks: BackgroundTasks, pipeline: TariffDataPipeline = Depends(get_pipeline)):
+    """Trigger a pipeline update in the background"""
+    # Add the pipeline update as a background task
+    background_tasks.add_task(pipeline.run_full_pipeline)
+    return {"status": "success", "message": "Pipeline update has been started in the background"}
