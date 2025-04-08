@@ -1,0 +1,32 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: tariff-dashboard-backend
+    ports:
+      - "8004:8004"  
+    volumes:
+      - ./backend/data:/app/data       
+      - ./backend/db:/app/db          
+      - ./.env:/app/.env:ro              
+    env_file:
+      - ./.env                 
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: tariff-dashboard-frontend
+    ports:
+      - "3000:3000"                  
+    volumes:
+      - ./frontend:/app              
+    environment:
+      - NODE_ENV=production        
+    restart: always
+
+networks:
+  default:
+    name: tariff-dashboard-network
