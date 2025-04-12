@@ -1,0 +1,1340 @@
+[
+  {
+    "code": "004",
+    "iso3A": "AFG",
+    "name": "Afghanistan",
+    "displayOrder": 10
+  },
+  {
+    "code": "008",
+    "iso3A": "ALB",
+    "name": "Albania",
+    "displayOrder": 40
+  },
+  {
+    "code": "012",
+    "iso3A": "DZA",
+    "name": "Algeria",
+    "displayOrder": 50
+  },
+  {
+    "code": "016",
+    "iso3A": "ASM",
+    "name": "American Samoa",
+    "displayOrder": 70
+  },
+  {
+    "code": "020",
+    "iso3A": "AND",
+    "name": "Andorra",
+    "displayOrder": 90
+  },
+  {
+    "code": "024",
+    "iso3A": "AGO",
+    "name": "Angola",
+    "displayOrder": 100
+  },
+  {
+    "code": "660",
+    "iso3A": "AIA",
+    "name": "Anguilla",
+    "displayOrder": 110
+  },
+  {
+    "code": "028",
+    "iso3A": "ATG",
+    "name": "Antigua and Barbuda",
+    "displayOrder": 130
+  },
+  {
+    "code": "032",
+    "iso3A": "ARG",
+    "name": "Argentina",
+    "displayOrder": 140
+  },
+  {
+    "code": "051",
+    "iso3A": "ARM",
+    "name": "Armenia",
+    "displayOrder": 150
+  },
+  {
+    "code": "036",
+    "iso3A": "AUS",
+    "name": "Australia",
+    "displayOrder": 200
+  },
+  {
+    "code": "040",
+    "iso3A": "AUT",
+    "name": "Austria",
+    "displayOrder": 220
+  },
+  {
+    "code": "031",
+    "iso3A": "AZE",
+    "name": "Azerbaijan",
+    "displayOrder": 230
+  },
+  {
+    "code": "044",
+    "iso3A": "BHS",
+    "name": "Bahamas",
+    "displayOrder": 250
+  },
+  {
+    "code": "048",
+    "iso3A": "BHR",
+    "name": "Bahrain, Kingdom of",
+    "displayOrder": 260
+  },
+  {
+    "code": "050",
+    "iso3A": "BGD",
+    "name": "Bangladesh",
+    "displayOrder": 270
+  },
+  {
+    "code": "052",
+    "iso3A": "BRB",
+    "name": "Barbados",
+    "displayOrder": 280
+  },
+  {
+    "code": "112",
+    "iso3A": "BLR",
+    "name": "Belarus",
+    "displayOrder": 290
+  },
+  {
+    "code": "056",
+    "iso3A": "BEL",
+    "name": "Belgium",
+    "displayOrder": 300
+  },
+  {
+    "code": "058",
+    "iso3A": "BLX",
+    "name": "Belgium-Luxembourg",
+    "displayOrder": 310
+  },
+  {
+    "code": "084",
+    "iso3A": "BLZ",
+    "name": "Belize",
+    "displayOrder": 320
+  },
+  {
+    "code": "204",
+    "iso3A": "BEN",
+    "name": "Benin",
+    "displayOrder": 340
+  },
+  {
+    "code": "060",
+    "iso3A": "BMU",
+    "name": "Bermuda",
+    "displayOrder": 350
+  },
+  {
+    "code": "064",
+    "iso3A": "BTN",
+    "name": "Bhutan",
+    "displayOrder": 360
+  },
+  {
+    "code": "068",
+    "iso3A": "BOL",
+    "name": "Bolivia, Plurinational State of",
+    "displayOrder": 380
+  },
+  {
+    "code": "070",
+    "iso3A": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "displayOrder": 390
+  },
+  {
+    "code": "072",
+    "iso3A": "BWA",
+    "name": "Botswana",
+    "displayOrder": 400
+  },
+  {
+    "code": "076",
+    "iso3A": "BRA",
+    "name": "Brazil",
+    "displayOrder": 420
+  },
+  {
+    "code": "096",
+    "iso3A": "BRN",
+    "name": "Brunei Darussalam",
+    "displayOrder": 440
+  },
+  {
+    "code": "100",
+    "iso3A": "BGR",
+    "name": "Bulgaria",
+    "displayOrder": 450
+  },
+  {
+    "code": "854",
+    "iso3A": "BFA",
+    "name": "Burkina Faso",
+    "displayOrder": 460
+  },
+  {
+    "code": "108",
+    "iso3A": "BDI",
+    "name": "Burundi",
+    "displayOrder": 480
+  },
+  {
+    "code": "132",
+    "iso3A": "CPV",
+    "name": "Cabo Verde",
+    "displayOrder": 485
+  },
+  {
+    "code": "116",
+    "iso3A": "KHM",
+    "name": "Cambodia",
+    "displayOrder": 490
+  },
+  {
+    "code": "120",
+    "iso3A": "CMR",
+    "name": "Cameroon",
+    "displayOrder": 500
+  },
+  {
+    "code": "124",
+    "iso3A": "CAN",
+    "name": "Canada",
+    "displayOrder": 510
+  },
+  {
+    "code": "136",
+    "iso3A": "CYM",
+    "name": "Cayman Islands",
+    "displayOrder": 560
+  },
+  {
+    "code": "140",
+    "iso3A": "CAF",
+    "name": "Central African Republic",
+    "displayOrder": 590
+  },
+  {
+    "code": "148",
+    "iso3A": "TCD",
+    "name": "Chad",
+    "displayOrder": 650
+  },
+  {
+    "code": "152",
+    "iso3A": "CHL",
+    "name": "Chile",
+    "displayOrder": 660
+  },
+  {
+    "code": "156",
+    "iso3A": "CHN",
+    "name": "China",
+    "displayOrder": 670
+  },
+  {
+    "code": "170",
+    "iso3A": "COL",
+    "name": "Colombia",
+    "displayOrder": 700
+  },
+  {
+    "code": "174",
+    "iso3A": "COM",
+    "name": "Comoros",
+    "displayOrder": 760
+  },
+  {
+    "code": "178",
+    "iso3A": "COG",
+    "name": "Congo",
+    "displayOrder": 770
+  },
+  {
+    "code": "184",
+    "iso3A": "COK",
+    "name": "Cook Islands",
+    "displayOrder": 780
+  },
+  {
+    "code": "188",
+    "iso3A": "CRI",
+    "name": "Costa Rica",
+    "displayOrder": 800
+  },
+  {
+    "code": "384",
+    "iso3A": "CIV",
+    "name": "C\u00f4te d'Ivoire",
+    "displayOrder": 810
+  },
+  {
+    "code": "191",
+    "iso3A": "HRV",
+    "name": "Croatia",
+    "displayOrder": 820
+  },
+  {
+    "code": "192",
+    "iso3A": "CUB",
+    "name": "Cuba",
+    "displayOrder": 830
+  },
+  {
+    "code": "531",
+    "iso3A": "CUW",
+    "name": "Cura\u00e7ao",
+    "displayOrder": 850
+  },
+  {
+    "code": "196",
+    "iso3A": "CYP",
+    "name": "Cyprus",
+    "displayOrder": 870
+  },
+  {
+    "code": "203",
+    "iso3A": "CZE",
+    "name": "Czech Republic",
+    "displayOrder": 890
+  },
+  {
+    "code": "180",
+    "iso3A": "COD",
+    "name": "Democratic Republic of the Congo",
+    "displayOrder": 920
+  },
+  {
+    "code": "208",
+    "iso3A": "DNK",
+    "name": "Denmark",
+    "displayOrder": 930
+  },
+  {
+    "code": "262",
+    "iso3A": "DJI",
+    "name": "Djibouti",
+    "displayOrder": 980
+  },
+  {
+    "code": "212",
+    "iso3A": "DMA",
+    "name": "Dominica",
+    "displayOrder": 990
+  },
+  {
+    "code": "214",
+    "iso3A": "DOM",
+    "name": "Dominican Republic",
+    "displayOrder": 1000
+  },
+  {
+    "code": "218",
+    "iso3A": "ECU",
+    "name": "Ecuador",
+    "displayOrder": 1110
+  },
+  {
+    "code": "818",
+    "iso3A": "EGY",
+    "name": "Egypt",
+    "displayOrder": 1120
+  },
+  {
+    "code": "222",
+    "iso3A": "SLV",
+    "name": "El Salvador",
+    "displayOrder": 1130
+  },
+  {
+    "code": "226",
+    "iso3A": "GNQ",
+    "name": "Equatorial Guinea",
+    "displayOrder": 1140
+  },
+  {
+    "code": "232",
+    "iso3A": "ERI",
+    "name": "Eritrea",
+    "displayOrder": 1150
+  },
+  {
+    "code": "233",
+    "iso3A": "EST",
+    "name": "Estonia",
+    "displayOrder": 1160
+  },
+  {
+    "code": "748",
+    "iso3A": "SWZ",
+    "name": "Eswatini",
+    "displayOrder": 1165
+  },
+  {
+    "code": "231",
+    "iso3A": "ETH",
+    "name": "Ethiopia",
+    "displayOrder": 1170
+  },
+  {
+    "code": "918",
+    "iso3A": "EEC",
+    "name": "European Union",
+    "displayOrder": 1240
+  },
+  {
+    "code": "234",
+    "iso3A": "FRO",
+    "name": "Faeroe Islands",
+    "displayOrder": 1270
+  },
+  {
+    "code": "242",
+    "iso3A": "FJI",
+    "name": "Fiji",
+    "displayOrder": 1290
+  },
+  {
+    "code": "246",
+    "iso3A": "FIN",
+    "name": "Finland",
+    "displayOrder": 1300
+  },
+  {
+    "code": "250",
+    "iso3A": "FRA",
+    "name": "France",
+    "displayOrder": 1310
+  },
+  {
+    "code": "258",
+    "iso3A": "PYF",
+    "name": "French Polynesia",
+    "displayOrder": 1370
+  },
+  {
+    "code": "260",
+    "iso3A": "ATF",
+    "name": "French Southern Territories",
+    "displayOrder": 1380
+  },
+  {
+    "code": "266",
+    "iso3A": "GAB",
+    "name": "Gabon",
+    "displayOrder": 1400
+  },
+  {
+    "code": "270",
+    "iso3A": "GMB",
+    "name": "The Gambia",
+    "displayOrder": 1405
+  },
+  {
+    "code": "268",
+    "iso3A": "GEO",
+    "name": "Georgia",
+    "displayOrder": 1410
+  },
+  {
+    "code": "276",
+    "iso3A": "DEU",
+    "name": "Germany",
+    "displayOrder": 1430
+  },
+  {
+    "code": "288",
+    "iso3A": "GHA",
+    "name": "Ghana",
+    "displayOrder": 1450
+  },
+  {
+    "code": "292",
+    "iso3A": "GIB",
+    "name": "Gibraltar",
+    "displayOrder": 1460
+  },
+  {
+    "code": "300",
+    "iso3A": "GRC",
+    "name": "Greece",
+    "displayOrder": 1470
+  },
+  {
+    "code": "304",
+    "iso3A": "GRL",
+    "name": "Greenland",
+    "displayOrder": 1480
+  },
+  {
+    "code": "308",
+    "iso3A": "GRD",
+    "name": "Grenada",
+    "displayOrder": 1490
+  },
+  {
+    "code": "316",
+    "iso3A": "GUM",
+    "name": "Guam",
+    "displayOrder": 1510
+  },
+  {
+    "code": "320",
+    "iso3A": "GTM",
+    "name": "Guatemala",
+    "displayOrder": 1520
+  },
+  {
+    "code": "324",
+    "iso3A": "GIN",
+    "name": "Guinea",
+    "displayOrder": 1530
+  },
+  {
+    "code": "624",
+    "iso3A": "GNB",
+    "name": "Guinea-Bissau",
+    "displayOrder": 1540
+  },
+  {
+    "code": "328",
+    "iso3A": "GUY",
+    "name": "Guyana",
+    "displayOrder": 1550
+  },
+  {
+    "code": "332",
+    "iso3A": "HTI",
+    "name": "Haiti",
+    "displayOrder": 1560
+  },
+  {
+    "code": "340",
+    "iso3A": "HND",
+    "name": "Honduras",
+    "displayOrder": 1590
+  },
+  {
+    "code": "344",
+    "iso3A": "HKG",
+    "name": "Hong Kong, China",
+    "displayOrder": 1600
+  },
+  {
+    "code": "348",
+    "iso3A": "HUN",
+    "name": "Hungary",
+    "displayOrder": 1610
+  },
+  {
+    "code": "352",
+    "iso3A": "ISL",
+    "name": "Iceland",
+    "displayOrder": 1620
+  },
+  {
+    "code": "356",
+    "iso3A": "IND",
+    "name": "India",
+    "displayOrder": 1630
+  },
+  {
+    "code": "360",
+    "iso3A": "IDN",
+    "name": "Indonesia",
+    "displayOrder": 1640
+  },
+  {
+    "code": "364",
+    "iso3A": "IRN",
+    "name": "Iran",
+    "displayOrder": 1650
+  },
+  {
+    "code": "368",
+    "iso3A": "IRQ",
+    "name": "Iraq",
+    "displayOrder": 1660
+  },
+  {
+    "code": "372",
+    "iso3A": "IRL",
+    "name": "Ireland",
+    "displayOrder": 1670
+  },
+  {
+    "code": "376",
+    "iso3A": "ISR",
+    "name": "Israel",
+    "displayOrder": 1680
+  },
+  {
+    "code": "380",
+    "iso3A": "ITA",
+    "name": "Italy",
+    "displayOrder": 1690
+  },
+  {
+    "code": "388",
+    "iso3A": "JAM",
+    "name": "Jamaica",
+    "displayOrder": 1700
+  },
+  {
+    "code": "392",
+    "iso3A": "JPN",
+    "name": "Japan",
+    "displayOrder": 1710
+  },
+  {
+    "code": "400",
+    "iso3A": "JOR",
+    "name": "Jordan",
+    "displayOrder": 1720
+  },
+  {
+    "code": "398",
+    "iso3A": "KAZ",
+    "name": "Kazakhstan",
+    "displayOrder": 1730
+  },
+  {
+    "code": "404",
+    "iso3A": "KEN",
+    "name": "Kenya",
+    "displayOrder": 1740
+  },
+  {
+    "code": "296",
+    "iso3A": "KIR",
+    "name": "Kiribati",
+    "displayOrder": 1750
+  },
+  {
+    "code": "408",
+    "iso3A": "PRK",
+    "name": "Korea, Democratic People's Republic of",
+    "displayOrder": 1760
+  },
+  {
+    "code": "410",
+    "iso3A": "KOR",
+    "name": "Korea, Republic of",
+    "displayOrder": 1770
+  },
+  {
+    "code": "414",
+    "iso3A": "KWT",
+    "name": "Kuwait, the State of",
+    "displayOrder": 1780
+  },
+  {
+    "code": "417",
+    "iso3A": "KGZ",
+    "name": "Kyrgyz Republic",
+    "displayOrder": 1790
+  },
+  {
+    "code": "418",
+    "iso3A": "LAO",
+    "name": "Lao People's Democratic Republic",
+    "displayOrder": 1800
+  },
+  {
+    "code": "428",
+    "iso3A": "LVA",
+    "name": "Latvia",
+    "displayOrder": 1820
+  },
+  {
+    "code": "422",
+    "iso3A": "LBN",
+    "name": "Lebanese Republic",
+    "displayOrder": 1840
+  },
+  {
+    "code": "426",
+    "iso3A": "LSO",
+    "name": "Lesotho",
+    "displayOrder": 1850
+  },
+  {
+    "code": "430",
+    "iso3A": "LBR",
+    "name": "Liberia",
+    "displayOrder": 1860
+  },
+  {
+    "code": "434",
+    "iso3A": "LBY",
+    "name": "Libya",
+    "displayOrder": 1870
+  },
+  {
+    "code": "440",
+    "iso3A": "LTU",
+    "name": "Lithuania",
+    "displayOrder": 1890
+  },
+  {
+    "code": "442",
+    "iso3A": "LUX",
+    "name": "Luxembourg",
+    "displayOrder": 1900
+  },
+  {
+    "code": "446",
+    "iso3A": "MAC",
+    "name": "Macao, China",
+    "displayOrder": 1910
+  },
+  {
+    "code": "450",
+    "iso3A": "MDG",
+    "name": "Madagascar",
+    "displayOrder": 1920
+  },
+  {
+    "code": "454",
+    "iso3A": "MWI",
+    "name": "Malawi",
+    "displayOrder": 1930
+  },
+  {
+    "code": "458",
+    "iso3A": "MYS",
+    "name": "Malaysia",
+    "displayOrder": 1950
+  },
+  {
+    "code": "462",
+    "iso3A": "MDV",
+    "name": "Maldives",
+    "displayOrder": 1960
+  },
+  {
+    "code": "466",
+    "iso3A": "MLI",
+    "name": "Mali",
+    "displayOrder": 1970
+  },
+  {
+    "code": "470",
+    "iso3A": "MLT",
+    "name": "Malta",
+    "displayOrder": 1980
+  },
+  {
+    "code": "584",
+    "iso3A": "MHL",
+    "name": "Marshall Islands",
+    "displayOrder": 1990
+  },
+  {
+    "code": "478",
+    "iso3A": "MRT",
+    "name": "Mauritania",
+    "displayOrder": 2010
+  },
+  {
+    "code": "480",
+    "iso3A": "MUS",
+    "name": "Mauritius",
+    "displayOrder": 2020
+  },
+  {
+    "code": "175",
+    "iso3A": "MYT",
+    "name": "Mayotte",
+    "displayOrder": 2030
+  },
+  {
+    "code": "484",
+    "iso3A": "MEX",
+    "name": "Mexico",
+    "displayOrder": 2050
+  },
+  {
+    "code": "583",
+    "iso3A": "FSM",
+    "name": "Micronesia, Federated States of",
+    "displayOrder": 2060
+  },
+  {
+    "code": "498",
+    "iso3A": "MDA",
+    "name": "Moldova, Republic of",
+    "displayOrder": 2090
+  },
+  {
+    "code": "496",
+    "iso3A": "MNG",
+    "name": "Mongolia",
+    "displayOrder": 2110
+  },
+  {
+    "code": "893",
+    "iso3A": "MNE",
+    "name": "Montenegro",
+    "displayOrder": 2120
+  },
+  {
+    "code": "500",
+    "iso3A": "MSR",
+    "name": "Montserrat",
+    "displayOrder": 2130
+  },
+  {
+    "code": "504",
+    "iso3A": "MAR",
+    "name": "Morocco",
+    "displayOrder": 2140
+  },
+  {
+    "code": "508",
+    "iso3A": "MOZ",
+    "name": "Mozambique",
+    "displayOrder": 2150
+  },
+  {
+    "code": "104",
+    "iso3A": "MMR",
+    "name": "Myanmar",
+    "displayOrder": 2160
+  },
+  {
+    "code": "516",
+    "iso3A": "NAM",
+    "name": "Namibia",
+    "displayOrder": 2170
+  },
+  {
+    "code": "520",
+    "iso3A": "NRU",
+    "name": "Nauru",
+    "displayOrder": 2180
+  },
+  {
+    "code": "524",
+    "iso3A": "NPL",
+    "name": "Nepal",
+    "displayOrder": 2190
+  },
+  {
+    "code": "528",
+    "iso3A": "NLD",
+    "name": "Netherlands",
+    "displayOrder": 2200
+  },
+  {
+    "code": "530",
+    "iso3A": "ANT",
+    "name": "Netherlands Antilles",
+    "displayOrder": 2210
+  },
+  {
+    "code": "532",
+    "iso3A": null,
+    "name": "Netherlands Antilles (incl. Aruba)",
+    "displayOrder": 2211
+  },
+  {
+    "code": "533",
+    "iso3A": "ABW",
+    "name": "Aruba, Netherlands with respect to",
+    "displayOrder": 2212
+  },
+  {
+    "code": "540",
+    "iso3A": "NCL",
+    "name": "New Caledonia",
+    "displayOrder": 2230
+  },
+  {
+    "code": "554",
+    "iso3A": "NZL",
+    "name": "New Zealand",
+    "displayOrder": 2240
+  },
+  {
+    "code": "558",
+    "iso3A": "NIC",
+    "name": "Nicaragua",
+    "displayOrder": 2260
+  },
+  {
+    "code": "562",
+    "iso3A": "NER",
+    "name": "Niger",
+    "displayOrder": 2270
+  },
+  {
+    "code": "566",
+    "iso3A": "NGA",
+    "name": "Nigeria",
+    "displayOrder": 2280
+  },
+  {
+    "code": "570",
+    "iso3A": "NIU",
+    "name": "Niue",
+    "displayOrder": 2290
+  },
+  {
+    "code": "807",
+    "iso3A": "MKD",
+    "name": "North Macedonia",
+    "displayOrder": 2335
+  },
+  {
+    "code": "580",
+    "iso3A": "MNP",
+    "name": "Northern Mariana Islands",
+    "displayOrder": 2340
+  },
+  {
+    "code": "578",
+    "iso3A": "NOR",
+    "name": "Norway",
+    "displayOrder": 2360
+  },
+  {
+    "code": "512",
+    "iso3A": "OMN",
+    "name": "Oman",
+    "displayOrder": 2390
+  },
+  {
+    "code": "586",
+    "iso3A": "PAK",
+    "name": "Pakistan",
+    "displayOrder": 2490
+  },
+  {
+    "code": "585",
+    "iso3A": "PLW",
+    "name": "Palau",
+    "displayOrder": 2500
+  },
+  {
+    "code": "275",
+    "iso3A": "PSE",
+    "name": "Palestine",
+    "displayOrder": 2510
+  },
+  {
+    "code": "591",
+    "iso3A": "PAN",
+    "name": "Panama",
+    "displayOrder": 2520
+  },
+  {
+    "code": "598",
+    "iso3A": "PNG",
+    "name": "Papua New Guinea",
+    "displayOrder": 2540
+  },
+  {
+    "code": "600",
+    "iso3A": "PRY",
+    "name": "Paraguay",
+    "displayOrder": 2550
+  },
+  {
+    "code": "604",
+    "iso3A": "PER",
+    "name": "Peru",
+    "displayOrder": 2560
+  },
+  {
+    "code": "608",
+    "iso3A": "PHL",
+    "name": "Philippines",
+    "displayOrder": 2570
+  },
+  {
+    "code": "616",
+    "iso3A": "POL",
+    "name": "Poland",
+    "displayOrder": 2590
+  },
+  {
+    "code": "620",
+    "iso3A": "PRT",
+    "name": "Portugal",
+    "displayOrder": 2600
+  },
+  {
+    "code": "634",
+    "iso3A": "QAT",
+    "name": "Qatar",
+    "displayOrder": 2620
+  },
+  {
+    "code": "642",
+    "iso3A": "ROM",
+    "name": "Romania",
+    "displayOrder": 2650
+  },
+  {
+    "code": "643",
+    "iso3A": "RUS",
+    "name": "Russian Federation",
+    "displayOrder": 2660
+  },
+  {
+    "code": "646",
+    "iso3A": "RWA",
+    "name": "Rwanda",
+    "displayOrder": 2670
+  },
+  {
+    "code": "659",
+    "iso3A": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "displayOrder": 2690
+  },
+  {
+    "code": "662",
+    "iso3A": "LCA",
+    "name": "Saint Lucia",
+    "displayOrder": 2700
+  },
+  {
+    "code": "666",
+    "iso3A": "SPM",
+    "name": "Saint Pierre and Miquelon",
+    "displayOrder": 2720
+  },
+  {
+    "code": "670",
+    "iso3A": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "displayOrder": 2730
+  },
+  {
+    "code": "882",
+    "iso3A": "WSM",
+    "name": "Samoa",
+    "displayOrder": 2740
+  },
+  {
+    "code": "678",
+    "iso3A": "STP",
+    "name": "Sao Tom\u00e9 and Principe",
+    "displayOrder": 2760
+  },
+  {
+    "code": "682",
+    "iso3A": "SAU",
+    "name": "Saudi Arabia, Kingdom of",
+    "displayOrder": 2770
+  },
+  {
+    "code": "686",
+    "iso3A": "SEN",
+    "name": "Senegal",
+    "displayOrder": 2780
+  },
+  {
+    "code": "892",
+    "iso3A": "SRB",
+    "name": "Serbia",
+    "displayOrder": 2790
+  },
+  {
+    "code": "690",
+    "iso3A": "SYC",
+    "name": "Seychelles",
+    "displayOrder": 2810
+  },
+  {
+    "code": "694",
+    "iso3A": "SLE",
+    "name": "Sierra Leone",
+    "displayOrder": 2820
+  },
+  {
+    "code": "702",
+    "iso3A": "SGP",
+    "name": "Singapore",
+    "displayOrder": 2830
+  },
+  {
+    "code": "534",
+    "iso3A": "SXM",
+    "name": "Sint Maarten",
+    "displayOrder": 2833
+  },
+  {
+    "code": "703",
+    "iso3A": "SVK",
+    "name": "Slovak Republic",
+    "displayOrder": 2840
+  },
+  {
+    "code": "705",
+    "iso3A": "SVN",
+    "name": "Slovenia",
+    "displayOrder": 2850
+  },
+  {
+    "code": "090",
+    "iso3A": "SLB",
+    "name": "Solomon Islands",
+    "displayOrder": 2860
+  },
+  {
+    "code": "706",
+    "iso3A": "SOM",
+    "name": "Somalia",
+    "displayOrder": 2870
+  },
+  {
+    "code": "710",
+    "iso3A": "ZAF",
+    "name": "South Africa",
+    "displayOrder": 2890
+  },
+  {
+    "code": "728",
+    "iso3A": "SSD",
+    "name": "South Sudan",
+    "displayOrder": 2950
+  },
+  {
+    "code": "724",
+    "iso3A": "ESP",
+    "name": "Spain",
+    "displayOrder": 3010
+  },
+  {
+    "code": "144",
+    "iso3A": "LKA",
+    "name": "Sri Lanka",
+    "displayOrder": 3020
+  },
+  {
+    "code": "736",
+    "iso3A": "SDN",
+    "name": "Sudan",
+    "displayOrder": 3040
+  },
+  {
+    "code": "740",
+    "iso3A": "SUR",
+    "name": "Suriname",
+    "displayOrder": 3050
+  },
+  {
+    "code": "752",
+    "iso3A": "SWE",
+    "name": "Sweden",
+    "displayOrder": 3080
+  },
+  {
+    "code": "756",
+    "iso3A": "CHE",
+    "name": "Switzerland",
+    "displayOrder": 3090
+  },
+  {
+    "code": "760",
+    "iso3A": "SYR",
+    "name": "Syrian Arab Republic",
+    "displayOrder": 3100
+  },
+  {
+    "code": "158",
+    "iso3A": "CHT",
+    "name": "Chinese Taipei",
+    "displayOrder": 3110
+  },
+  {
+    "code": "762",
+    "iso3A": "TJK",
+    "name": "Tajikistan",
+    "displayOrder": 3120
+  },
+  {
+    "code": "834",
+    "iso3A": "TZA",
+    "name": "Tanzania",
+    "displayOrder": 3130
+  },
+  {
+    "code": "764",
+    "iso3A": "THA",
+    "name": "Thailand",
+    "displayOrder": 3140
+  },
+  {
+    "code": "626",
+    "iso3A": "TLS",
+    "name": "Timor-Leste",
+    "displayOrder": 3170
+  },
+  {
+    "code": "768",
+    "iso3A": "TGO",
+    "name": "Togo",
+    "displayOrder": 3180
+  },
+  {
+    "code": "772",
+    "iso3A": "TKL",
+    "name": "Tokelau",
+    "displayOrder": 3190
+  },
+  {
+    "code": "776",
+    "iso3A": "TON",
+    "name": "Tonga",
+    "displayOrder": 3200
+  },
+  {
+    "code": "780",
+    "iso3A": "TTO",
+    "name": "Trinidad and Tobago",
+    "displayOrder": 3220
+  },
+  {
+    "code": "788",
+    "iso3A": "TUN",
+    "name": "Tunisia",
+    "displayOrder": 3240
+  },
+  {
+    "code": "792",
+    "iso3A": "TUR",
+    "name": "T\u00fcrkiye",
+    "displayOrder": 3250
+  },
+  {
+    "code": "795",
+    "iso3A": "TKM",
+    "name": "Turkmenistan",
+    "displayOrder": 3260
+  },
+  {
+    "code": "796",
+    "iso3A": "TCA",
+    "name": "Turks and Caicos Islands",
+    "displayOrder": 3270
+  },
+  {
+    "code": "798",
+    "iso3A": "TUV",
+    "name": "Tuvalu",
+    "displayOrder": 3280
+  },
+  {
+    "code": "800",
+    "iso3A": "UGA",
+    "name": "Uganda",
+    "displayOrder": 3310
+  },
+  {
+    "code": "804",
+    "iso3A": "UKR",
+    "name": "Ukraine",
+    "displayOrder": 3320
+  },
+  {
+    "code": "784",
+    "iso3A": "ARE",
+    "name": "United Arab Emirates",
+    "displayOrder": 3340
+  },
+  {
+    "code": "826",
+    "iso3A": "GBR",
+    "name": "United Kingdom",
+    "displayOrder": 3360
+  },
+  {
+    "code": "840",
+    "iso3A": "USA",
+    "name": "United States of America",
+    "displayOrder": 3380
+  },
+  {
+    "code": "888",
+    "iso3A": "XKX",
+    "name": "UNMIK/Kosovo",
+    "displayOrder": 3390
+  },
+  {
+    "code": "858",
+    "iso3A": "URY",
+    "name": "Uruguay",
+    "displayOrder": 3420
+  },
+  {
+    "code": "860",
+    "iso3A": "UZB",
+    "name": "Uzbekistan",
+    "displayOrder": 3430
+  },
+  {
+    "code": "548",
+    "iso3A": "VUT",
+    "name": "Vanuatu",
+    "displayOrder": 3440
+  },
+  {
+    "code": "862",
+    "iso3A": "VEN",
+    "name": "Venezuela, Bolivarian Republic of",
+    "displayOrder": 3460
+  },
+  {
+    "code": "704",
+    "iso3A": "VNM",
+    "name": "Viet Nam",
+    "displayOrder": 3470
+  },
+  {
+    "code": "092",
+    "iso3A": "VGB",
+    "name": "Virgin Islands, British",
+    "displayOrder": 3490
+  },
+  {
+    "code": "876",
+    "iso3A": "WLF",
+    "name": "Wallis and Futuna Islands",
+    "displayOrder": 3510
+  },
+  {
+    "code": "887",
+    "iso3A": "YEM",
+    "name": "Yemen",
+    "displayOrder": 3620
+  },
+  {
+    "code": "894",
+    "iso3A": "ZMB",
+    "name": "Zambia",
+    "displayOrder": 3670
+  },
+  {
+    "code": "716",
+    "iso3A": "ZWE",
+    "name": "Zimbabwe",
+    "displayOrder": 3690
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "code": "H1",
+    "version": "HS-92",
+    "label": "HS 1992"
+  },
+  {
+    "code": "H2",
+    "version": "HS-96",
+    "label": "HS 1996"
+  },
+  {
+    "code": "H3",
+    "version": "HS-02",
+    "label": "HS 2002"
+  },
+  {
+    "code": "H4",
+    "version": "HS-07",
+    "label": "HS 2007"
+  },
+  {
+    "code": "H5",
+    "version": "HS-12",
+    "label": "HS 2012"
+  },
+  {
+    "code": "H6",
+    "version": "HS-17",
+    "label": "HS 2017"
+  },
+  {
+    "code": "H7",
+    "version": "HS-22",
+    "label": "HS 2022"
+  }
+]

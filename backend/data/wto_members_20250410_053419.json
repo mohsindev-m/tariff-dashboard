@@ -1,0 +1,402 @@
+[
+  {
+    "code": "C004",
+    "name": {
+      "en": "Afghanistan",
+      "es": "Afganist\u00e1n",
+      "fr": "Afghanistan"
+    }
+  },
+  {
+    "code": "C008",
+    "name": {
+      "en": "Albania",
+      "es": "Albania",
+      "fr": "Albanie"
+    }
+  },
+  {
+    "code": "C024",
+    "name": {
+      "en": "Angola",
+      "es": "Angola",
+      "fr": "Angola"
+    }
+  },
+  {
+    "code": "C028",
+    "name": {
+      "en": "Antigua and Barbuda",
+      "es": "Antigua y Barbuda",
+      "fr": "Antigua-et-Barbuda"
+    }
+  },
+  {
+    "code": "C032",
+    "name": {
+      "en": "Argentina",
+      "es": "Argentina",
+      "fr": "Argentine"
+    }
+  },
+  {
+    "code": "C051",
+    "name": {
+      "en": "Armenia",
+      "es": "Armenia",
+      "fr": "Arm\u00e9nie"
+    }
+  },
+  {
+    "code": "C036",
+    "name": {
+      "en": "Australia",
+      "es": "Australia",
+      "fr": "Australie"
+    }
+  },
+  {
+    "code": "C040",
+    "name": {
+      "en": "Austria",
+      "es": "Austria",
+      "fr": "Autriche"
+    }
+  },
+  {
+    "code": "C048",
+    "name": {
+      "en": "Bahrain, Kingdom of",
+      "es": "Bahrein, Reino de",
+      "fr": "Bahre\u00efn, Royaume de"
+    }
+  },
+  {
+    "code": "C050",
+    "name": {
+      "en": "Bangladesh",
+      "es": "Bangladesh",
+      "fr": "Bangladesh"
+    }
+  },
+  {
+    "code": "C052",
+    "name": {
+      "en": "Barbados",
+      "es": "Barbados",
+      "fr": "Barbade"
+    }
+  },
+  {
+    "code": "C056",
+    "name": {
+      "en": "Belgium",
+      "es": "B\u00e9lgica",
+      "fr": "Belgique"
+    }
+  },
+  {
+    "code": "C084",
+    "name": {
+      "en": "Belize",
+      "es": "Belice",
+      "fr": "Belize"
+    }
+  },
+  {
+    "code": "C204",
+    "name": {
+      "en": "Benin",
+      "es": "Benin",
+      "fr": "B\u00e9nin"
+    }
+  },
+  {
+    "code": "C068",
+    "name": {
+      "en": "Bolivia, Plurinational State of",
+      "es": "Bolivia, Estado Plurinacional de",
+      "fr": "Bolivie, \u00c9tat plurinational de"
+    }
+  },
+  {
+    "code": "C072",
+    "name": {
+      "en": "Botswana",
+      "es": "Botswana",
+      "fr": "Botswana"
+    }
+  },
+  {
+    "code": "C076",
+    "name": {
+      "en": "Brazil",
+      "es": "Brasil",
+      "fr": "Br\u00e9sil"
+    }
+  },
+  {
+    "code": "C096",
+    "name": {
+      "en": "Brunei Darussalam",
+      "es": "Brunei Darussalam",
+      "fr": "Brun\u00e9i Darussalam"
+    }
+  },
+  {
+    "code": "C100",
+    "name": {
+      "en": "Bulgaria",
+      "es": "Bulgaria",
+      "fr": "Bulgarie"
+    }
+  },
+  {
+    "code": "C854",
+    "name": {
+      "en": "Burkina Faso",
+      "es": "Burkina Faso",
+      "fr": "Burkina Faso"
+    }
+  },
+  {
+    "code": "C108",
+    "name": {
+      "en": "Burundi",
+      "es": "Burundi",
+      "fr": "Burundi"
+    }
+  },
+  {
+    "code": "C132",
+    "name": {
+      "en": "Cabo Verde",
+      "es": "Cabo Verde",
+      "fr": "Cabo Verde"
+    }
+  },
+  {
+    "code": "C116",
+    "name": {
+      "en": "Cambodia",
+      "es": "Camboya",
+      "fr": "Cambodge"
+    }
+  },
+  {
+    "code": "C120",
+    "name": {
+      "en": "Cameroon",
+      "es": "Camer\u00fan",
+      "fr": "Cameroun"
+    }
+  },
+  {
+    "code": "C124",
+    "name": {
+      "en": "Canada",
+      "es": "Canad\u00e1",
+      "fr": "Canada"
+    }
+  },
+  {
+    "code": "C140",
+    "name": {
+      "en": "Central African Republic",
+      "es": "Rep\u00fablica Centroafricana",
+      "fr": "R\u00e9publique centrafricaine"
+    }
+  },
+  {
+    "code": "C148",
+    "name": {
+      "en": "Chad",
+      "es": "Chad",
+      "fr": "Tchad"
+    }
+  },
+  {
+    "code": "C152",
+    "name": {
+      "en": "Chile",
+      "es": "Chile",
+      "fr": "Chili"
+    }
+  },
+  {
+    "code": "C156",
+    "name": {
+      "en": "China",
+      "es": "China",
+      "fr": "Chine"
+    }
+  },
+  {
+    "code": "C170",
+    "name": {
+      "en": "Colombia",
+      "es": "Colombia",
+      "fr": "Colombie"
+    }
+  },
+  {
+    "code": "C174",
+    "name": {
+      "en": "Comoros",
+      "es": "Comoras",
+      "fr": "Comores"
+    }
+  },
+  {
+    "code": "C178",
+    "name": {
+      "en": "Congo",
+      "es": "Congo",
+      "fr": "Congo"
+    }
+  },
+  {
+    "code": "C188",
+    "name": {
+      "en": "Costa Rica",
+      "es": "Costa Rica",
+      "fr": "Costa Rica"
+    }
+  },
+  {
+    "code": "C384",
+    "name": {
+      "en": "C\u00f4te d'Ivoire",
+      "es": "C\u00f4te d'Ivoire",
+      "fr": "C\u00f4te d'Ivoire"
+    }
+  },
+  {
+    "code": "C191",
+    "name": {
+      "en": "Croatia",
+      "es": "Croacia",
+      "fr": "Croatie"
+    }
+  },
+  {
+    "code": "C192",
+    "name": {
+      "en": "Cuba",
+      "es": "Cuba",
+      "fr": "Cuba"
+    }
+  },
+  {
+    "code": "C196",
+    "name": {
+      "en": "Cyprus",
+      "es": "Chipre",
+      "fr": "Chypre"
+    }
+  },
+  {
+    "code": "C203",
+    "name": {
+      "en": "Czech Republic",
+      "es": "Rep\u00fablica Checa",
+      "fr": "R\u00e9publique tch\u00e8que"
+    }
+  },
+  {
+    "code": "C180",
+    "name": {
+      "en": "Democratic Republic of the Congo",
+      "es": "Rep\u00fablica Democr\u00e1tica del Congo",
+      "fr": "R\u00e9publique d\u00e9mocratique du Congo"
+    }
+  },
+  {
+    "code": "C208",
+    "name": {
+      "en": "Denmark",
+      "es": "Dinamarca",
+      "fr": "Danemark"
+    }
+  },
+  {
+    "code": "C262",
+    "name": {
+      "en": "Djibouti",
+      "es": "Djibouti",
+      "fr": "Djibouti"
+    }
+  },
+  {
+    "code": "C212",
+    "name": {
+      "en": "Dominica",
+      "es": "Dominica",
+      "fr": "Dominique"
+    }
+  },
+  {
+    "code": "C214",
+    "name": {
+      "en": "Dominican Republic",
+      "es": "Rep\u00fablica Dominicana",
+      "fr": "R\u00e9publique dominicaine"
+    }
+  },
+  {
+    "code": "C218",
+    "name": {
+      "en": "Ecuador",
+      "es": "Ecuador",
+      "fr": "\u00c9quateur"
+    }
+  },
+  {
+    "code": "C818",
+    "name": {
+      "en": "Egypt",
+      "es": "Egipto",
+      "fr": "\u00c9gypte"
+    }
+  },
+  {
+    "code": "C222",
+    "name": {
+      "en": "El Salvador",
+      "es": "El Salvador",
+      "fr": "El Salvador"
+    }
+  },
+  {
+    "code": "C233",
+    "name": {
+      "en": "Estonia",
+      "es": "Estonia",
+      "fr": "Estonie"
+    }
+  },
+  {
+    "code": "C748",
+    "name": {
+      "en": "Eswatini",
+      "es": "Eswatini",
+      "fr": "Eswatini"
+    }
+  },
+  {
+    "code": "C899",
+    "name": {
+      "en": "European Union",
+      "es": "Uni\u00f3n Europea",
+      "fr": "Union europ\u00e9enne"
+    }
+  },
+  {
+    "code": "C242",
+    "name": {
+      "en": "Fiji",
+      "es": "Fiji",
+      "fr": "Fidji"
+    }
+  }
+]

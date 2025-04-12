@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-04-11T00:09:56.264959",
+  "files": {
+    "dashboard_latest": "data/census_data_latest.json"
+  },
+  "metadata": {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "countries": [
+      "China",
+      "Mexico",
+      "Canada",
+      "Japan",
+      "Germany",
+      "South Korea",
+      "United Kingdom",
+      "Vietnam",
+      "Taiwan",
+      "India"
+    ],
+    "execution_time_seconds": 4.489918,
+    "status": "success"
+  }
+}

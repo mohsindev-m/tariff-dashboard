@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-04-10T04:56:21.632847",
+  "files": {
+    "indicators": "data/tariff_indicators_20250410_045622.json",
+    "reporters": "data/reporters_20250410_045623.json"
+  },
+  "summary": {
+    "countries": 27,
+    "time_period": "2020-2024",
+    "indicator_count": 22,
+    "reporter_count": 223,
+    "status": "error",
+    "error": "API request failed: 400 - {\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"SQL\":[\"No indicator found with the code [ITS_AVG_MFN]\"]}}"
+  }
+}

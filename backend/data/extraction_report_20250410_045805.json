@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-04-10T04:58:05.437236",
+  "files": {
+    "indicators": "data/tariff_indicators_20250410_045806.json",
+    "reporters": "data/reporters_20250410_045806.json"
+  },
+  "summary": {
+    "countries": 27,
+    "time_period": "2020-2024",
+    "indicator_count": 22,
+    "reporter_count": 223,
+    "status": "error",
+    "error": "Could not find appropriate MFN tariff indicator. Available indicators: ['TP_A_0150', 'TP_A_0190', 'TP_A_0200', 'TP_A_0420', 'TP_A_0460', 'TP_A_0470', 'TP_A_0690', 'HS_A_0040', 'HS_A_0050', 'TP_B_0050', 'TP_B_0060', 'TP_B_0210', 'TP_B_0220', 'TP_B_0250', 'TP_B_0410', 'TP_B_0420', 'HS_B_0050', 'HS_B_0060', 'HS_B_0070', 'HS_B_0090', 'TP_E_0170', 'TP_E_0270']"
+  }
+}

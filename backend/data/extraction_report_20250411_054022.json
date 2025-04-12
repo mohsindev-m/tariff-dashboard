@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-04-11T05:40:22.195533",
+  "files": {
+    "all_indicators": "data/all_indicators_20250411_054023.json",
+    "indicators": "data/tariff_indicators_20250411_054024.json",
+    "reporters": "data/reporters_20250411_054025.json",
+    "tariff_profiles_csv": "data/tariff_profiles_20250411_054056.csv",
+    "tariff_profiles_json": "data/tariff_profiles_20250411_054056.json",
+    "latest": "data/tariff_data_latest.json"
+  },
+  "summary": {
+    "countries": 27,
+    "time_period": "2020-2024",
+    "test_mode": false,
+    "all_indicator_count": 251,
+    "indicator_count": 22,
+    "reporter_count": 223,
+    "data_points": 0,
+    "execution_time_seconds": 34.75692,
+    "status": "success"
+  }
+}

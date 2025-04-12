@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-04-10T05:34:17.709966",
+  "files": {
+    "hs_versions": "data/hs_versions_20250410_053419.json",
+    "members": "data/wto_members_20250410_053419.json"
+  },
+  "summary": {
+    "countries": "all",
+    "products": "all",
+    "hs_version": "h6",
+    "in_force_only": false,
+    "hs_versions_count": 7,
+    "members_count": 50,
+    "status": "error",
+    "error": "'str' object has no attribute 'get'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/mohsin/Desktop/tariff-dashboard/backend/app/scrapers/wto_qr.py\", line 684, in run_qr_extraction\n    qr_df = self.fetch_in_force_restrictions(valid_countries)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/mohsin/Desktop/tariff-dashboard/backend/app/scrapers/wto_qr.py\", line 567, in fetch_in_force_restrictions\n    return self.transform_qr_to_dataframe({\"data\": all_qrs})\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/mohsin/Desktop/tariff-dashboard/backend/app/scrapers/wto_qr.py\", line 345, in transform_qr_to_dataframe\n    qr_info[f\"measure_{i+1}_description_en\"] = measure.get(\"description\", {}).get(\"en\")\n                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'str' object has no attribute 'get'\n"
+  }
+}

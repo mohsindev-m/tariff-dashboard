@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-04-10T05:36:47.451078",
+  "files": {
+    "hs_versions": "data/hs_versions_20250410_053648.json",
+    "members": "data/wto_members_20250410_053649.json",
+    "qr_csv": "data/quantitative_restrictions_20250410_053934.csv",
+    "qr_json": "data/quantitative_restrictions_20250410_053934.json",
+    "latest": "data/qr_data_latest.json"
+  },
+  "summary": {
+    "countries": "all",
+    "products": "all",
+    "hs_version": "h6",
+    "in_force_only": false,
+    "hs_versions_count": 7,
+    "members_count": 50,
+    "qr_count": 1618,
+    "execution_time_seconds": 166.753841,
+    "status": "success"
+  }
+}

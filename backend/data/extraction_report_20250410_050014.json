@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-04-10T05:00:14.613679",
+  "files": {
+    "all_indicators": "data/all_indicators_20250410_050016.json",
+    "indicators": "data/tariff_indicators_20250410_050016.json",
+    "reporters": "data/reporters_20250410_050017.json"
+  },
+  "summary": {
+    "countries": 3,
+    "time_period": "2022",
+    "test_mode": true,
+    "indicator_count": 22,
+    "reporter_count": 223,
+    "status": "error",
+    "error": "'str' object has no attribute 'get'",
+    "traceback": "Traceback (most recent call last):\n  File \"/Users/mohsin/Desktop/tariff-dashboard/backend/app/scrapers/wto_time_series.py\", line 696, in run_full_extraction\n    profiles = self.fetch_country_tariff_profiles(valid_countries, test_years)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/mohsin/Desktop/tariff-dashboard/backend/app/scrapers/wto_time_series.py\", line 539, in fetch_country_tariff_profiles\n    df_tariffs = self.transform_to_dataframe(tariff_data)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/mohsin/Desktop/tariff-dashboard/backend/app/scrapers/wto_time_series.py\", line 352, in transform_to_dataframe\n    'indicator_code': point.get('indicatorCode'),\n                      ^^^^^^^^^\nAttributeError: 'str' object has no attribute 'get'\n"
+  }
+}

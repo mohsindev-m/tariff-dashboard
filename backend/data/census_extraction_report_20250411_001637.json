@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-04-11T00:16:37.166001",
+  "files": {
+    "trade_balance_csv": "data/census_trade_balance_20250411_001652.csv",
+    "trade_balance_json": "data/census_trade_balance_20250411_001652.json",
+    "dashboard_trade_balance": "data/dashboard_trade_balance_20250411_001652.json",
+    "monthly_trade_csv": "data/census_monthly_trade_20250411_001652.csv",
+    "monthly_trade_json": "data/census_monthly_trade_20250411_001652.json",
+    "dashboard_monthly_trade": "data/dashboard_monthly_trade_20250411_001652.json",
+    "dashboard_latest": "data/census_data_latest.json"
+  },
+  "metadata": {
+    "years": [
+      2020,
+      2021,
+      2022
+    ],
+    "countries": [
+      "China",
+      "Mexico",
+      "Canada",
+      "Japan",
+      "Germany",
+      "South Korea",
+      "United Kingdom",
+      "Vietnam",
+      "Taiwan",
+      "India"
+    ],
+    "execution_time_seconds": 16.957413,
+    "status": "success"
+  }
+}
