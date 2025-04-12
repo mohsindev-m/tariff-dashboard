@@ -1,0 +1,301 @@
+Code,GeoFips,GeoName,TimePeriod,CL_UNIT,UNIT_MULT,DataValue
+SAGDP2-1,00000,United States *,2020,Millions of current dollars,6,21354105.0
+SAGDP2-1,00000,United States *,2021,Millions of current dollars,6,23681171.0
+SAGDP2-1,00000,United States *,2022,Millions of current dollars,6,26006893.0
+SAGDP2-1,00000,United States *,2023,Millions of current dollars,6,27720709.0
+SAGDP2-1,00000,United States *,2024,Millions of current dollars,6,29184890.0
+SAGDP2-1,01000,Alabama,2020,Millions of current dollars,6,235325.3
+SAGDP2-1,01000,Alabama,2021,Millions of current dollars,6,260018.4
+SAGDP2-1,01000,Alabama,2022,Millions of current dollars,6,284949.1
+SAGDP2-1,01000,Alabama,2023,Millions of current dollars,6,304935.6
+SAGDP2-1,01000,Alabama,2024,Millions of current dollars,6,321237.6
+SAGDP2-1,02000,Alaska,2020,Millions of current dollars,6,51283.4
+SAGDP2-1,02000,Alaska,2021,Millions of current dollars,6,58943.5
+SAGDP2-1,02000,Alaska,2022,Millions of current dollars,6,66271.9
+SAGDP2-1,02000,Alaska,2023,Millions of current dollars,6,68056.0
+SAGDP2-1,02000,Alaska,2024,Millions of current dollars,6,69969.0
+SAGDP2-1,04000,Arizona,2020,Millions of current dollars,6,388956.7
+SAGDP2-1,04000,Arizona,2021,Millions of current dollars,6,436778.6
+SAGDP2-1,04000,Arizona,2022,Millions of current dollars,6,484052.2
+SAGDP2-1,04000,Arizona,2023,Millions of current dollars,6,522767.2
+SAGDP2-1,04000,Arizona,2024,Millions of current dollars,6,552167.0
+SAGDP2-1,05000,Arkansas,2020,Millions of current dollars,6,136198.4
+SAGDP2-1,05000,Arkansas,2021,Millions of current dollars,6,154052.5
+SAGDP2-1,05000,Arkansas,2022,Millions of current dollars,6,168605.8
+SAGDP2-1,05000,Arkansas,2023,Millions of current dollars,6,178606.4
+SAGDP2-1,05000,Arkansas,2024,Millions of current dollars,6,188723.1
+SAGDP2-1,06000,California,2020,Millions of current dollars,6,3076755.1
+SAGDP2-1,06000,California,2021,Millions of current dollars,6,3423958.3
+SAGDP2-1,06000,California,2022,Millions of current dollars,6,3660415.7
+SAGDP2-1,06000,California,2023,Millions of current dollars,6,3870378.9
+SAGDP2-1,06000,California,2024,Millions of current dollars,6,4103123.6
+SAGDP2-1,08000,Colorado,2020,Millions of current dollars,6,396741.9
+SAGDP2-1,08000,Colorado,2021,Millions of current dollars,6,445835.7
+SAGDP2-1,08000,Colorado,2022,Millions of current dollars,6,494672.8
+SAGDP2-1,08000,Colorado,2023,Millions of current dollars,6,529626.5
+SAGDP2-1,08000,Colorado,2024,Millions of current dollars,6,553322.5
+SAGDP2-1,09000,Connecticut,2020,Millions of current dollars,6,278029.4
+SAGDP2-1,09000,Connecticut,2021,Millions of current dollars,6,296801.3
+SAGDP2-1,09000,Connecticut,2022,Millions of current dollars,6,321686.4
+SAGDP2-1,09000,Connecticut,2023,Millions of current dollars,6,345911.9
+SAGDP2-1,09000,Connecticut,2024,Millions of current dollars,6,365723.1
+SAGDP2-1,10000,Delaware,2020,Millions of current dollars,6,77520.3
+SAGDP2-1,10000,Delaware,2021,Millions of current dollars,6,83069.8
+SAGDP2-1,10000,Delaware,2022,Millions of current dollars,6,92558.2
+SAGDP2-1,10000,Delaware,2023,Millions of current dollars,6,98068.7
+SAGDP2-1,10000,Delaware,2024,Millions of current dollars,6,103253.3
+SAGDP2-1,11000,District of Columbia,2020,Millions of current dollars,6,146660.1
+SAGDP2-1,11000,District of Columbia,2021,Millions of current dollars,6,156537.5
+SAGDP2-1,11000,District of Columbia,2022,Millions of current dollars,6,165768.4
+SAGDP2-1,11000,District of Columbia,2023,Millions of current dollars,6,176501.7
+SAGDP2-1,11000,District of Columbia,2024,Millions of current dollars,6,186165.0
+SAGDP2-1,12000,Florida,2020,Millions of current dollars,6,1142004.4
+SAGDP2-1,12000,Florida,2021,Millions of current dollars,6,1298631.2
+SAGDP2-1,12000,Florida,2022,Millions of current dollars,6,1465281.1
+SAGDP2-1,12000,Florida,2023,Millions of current dollars,6,1600810.6
+SAGDP2-1,12000,Florida,2024,Millions of current dollars,6,1705564.9
+SAGDP2-1,13000,Georgia,2020,Millions of current dollars,6,640223.6
+SAGDP2-1,13000,Georgia,2021,Millions of current dollars,6,705546.7
+SAGDP2-1,13000,Georgia,2022,Millions of current dollars,6,779684.0
+SAGDP2-1,13000,Georgia,2023,Millions of current dollars,6,831827.7
+SAGDP2-1,13000,Georgia,2024,Millions of current dollars,6,882534.5
+SAGDP2-1,15000,Hawaii,2020,Millions of current dollars,6,84885.8
+SAGDP2-1,15000,Hawaii,2021,Millions of current dollars,6,93400.4
+SAGDP2-1,15000,Hawaii,2022,Millions of current dollars,6,103153.1
+SAGDP2-1,15000,Hawaii,2023,Millions of current dollars,6,110265.4
+SAGDP2-1,15000,Hawaii,2024,Millions of current dollars,6,115627.2
+SAGDP2-1,16000,Idaho,2020,Millions of current dollars,6,88099.3
+SAGDP2-1,16000,Idaho,2021,Millions of current dollars,6,99839.1
+SAGDP2-1,16000,Idaho,2022,Millions of current dollars,6,112290.1
+SAGDP2-1,16000,Idaho,2023,Millions of current dollars,6,120958.3
+SAGDP2-1,16000,Idaho,2024,Millions of current dollars,6,128132.1
+SAGDP2-1,17000,Illinois,2020,Millions of current dollars,6,860672.8
+SAGDP2-1,17000,Illinois,2021,Millions of current dollars,6,946776.2
+SAGDP2-1,17000,Illinois,2022,Millions of current dollars,6,1040353.3
+SAGDP2-1,17000,Illinois,2023,Millions of current dollars,6,1098346.1
+SAGDP2-1,17000,Illinois,2024,Millions of current dollars,6,1137243.6
+SAGDP2-1,18000,Indiana,2020,Millions of current dollars,6,378633.6
+SAGDP2-1,18000,Indiana,2021,Millions of current dollars,6,425863.8
+SAGDP2-1,18000,Indiana,2022,Millions of current dollars,6,473492.9
+SAGDP2-1,18000,Indiana,2023,Millions of current dollars,6,499503.1
+SAGDP2-1,18000,Indiana,2024,Millions of current dollars,6,527381.1
+SAGDP2-1,19000,Iowa,2020,Millions of current dollars,6,198609.6
+SAGDP2-1,19000,Iowa,2021,Millions of current dollars,6,223870.9
+SAGDP2-1,19000,Iowa,2022,Millions of current dollars,6,242752.9
+SAGDP2-1,19000,Iowa,2023,Millions of current dollars,6,254032.0
+SAGDP2-1,19000,Iowa,2024,Millions of current dollars,6,257020.8
+SAGDP2-1,20000,Kansas,2020,Millions of current dollars,6,177209.6
+SAGDP2-1,20000,Kansas,2021,Millions of current dollars,6,191738.1
+SAGDP2-1,20000,Kansas,2022,Millions of current dollars,6,212611.6
+SAGDP2-1,20000,Kansas,2023,Millions of current dollars,6,228232.4
+SAGDP2-1,20000,Kansas,2024,Millions of current dollars,6,234673.2
+SAGDP2-1,21000,Kentucky,2020,Millions of current dollars,6,218539.7
+SAGDP2-1,21000,Kentucky,2021,Millions of current dollars,6,238428.9
+SAGDP2-1,21000,Kentucky,2022,Millions of current dollars,6,261540.7
+SAGDP2-1,21000,Kentucky,2023,Millions of current dollars,6,279707.5
+SAGDP2-1,21000,Kentucky,2024,Millions of current dollars,6,293021.0
+SAGDP2-1,22000,Louisiana,2020,Millions of current dollars,6,236216.3
+SAGDP2-1,22000,Louisiana,2021,Millions of current dollars,6,267263.6
+SAGDP2-1,22000,Louisiana,2022,Millions of current dollars,6,298424.5
+SAGDP2-1,22000,Louisiana,2023,Millions of current dollars,6,314988.6
+SAGDP2-1,22000,Louisiana,2024,Millions of current dollars,6,327782.1
+SAGDP2-1,23000,Maine,2020,Millions of current dollars,6,72077.1
+SAGDP2-1,23000,Maine,2021,Millions of current dollars,6,79193.9
+SAGDP2-1,23000,Maine,2022,Millions of current dollars,6,86493.3
+SAGDP2-1,23000,Maine,2023,Millions of current dollars,6,93270.0
+SAGDP2-1,23000,Maine,2024,Millions of current dollars,6,98606.0
+SAGDP2-1,24000,Maryland,2020,Millions of current dollars,6,413455.4
+SAGDP2-1,24000,Maryland,2021,Millions of current dollars,6,447753.6
+SAGDP2-1,24000,Maryland,2022,Millions of current dollars,6,484907.6
+SAGDP2-1,24000,Maryland,2023,Millions of current dollars,6,515607.3
+SAGDP2-1,24000,Maryland,2024,Millions of current dollars,6,542765.8
+SAGDP2-1,25000,Massachusetts,2020,Millions of current dollars,6,592653.0
+SAGDP2-1,25000,Massachusetts,2021,Millions of current dollars,6,649511.4
+SAGDP2-1,25000,Massachusetts,2022,Millions of current dollars,6,695612.1
+SAGDP2-1,25000,Massachusetts,2023,Millions of current dollars,6,736296.3
+SAGDP2-1,25000,Massachusetts,2024,Millions of current dollars,6,780666.2
+SAGDP2-1,26000,Michigan,2020,Millions of current dollars,6,529675.6
+SAGDP2-1,26000,Michigan,2021,Millions of current dollars,6,575116.4
+SAGDP2-1,26000,Michigan,2022,Millions of current dollars,6,627009.1
+SAGDP2-1,26000,Michigan,2023,Millions of current dollars,6,673818.1
+SAGDP2-1,26000,Michigan,2024,Millions of current dollars,6,706615.8
+SAGDP2-1,27000,Minnesota,2020,Millions of current dollars,6,378746.6
+SAGDP2-1,27000,Minnesota,2021,Millions of current dollars,6,416538.7
+SAGDP2-1,27000,Minnesota,2022,Millions of current dollars,6,454992.8
+SAGDP2-1,27000,Minnesota,2023,Millions of current dollars,6,483162.1
+SAGDP2-1,27000,Minnesota,2024,Millions of current dollars,6,500851.4
+SAGDP2-1,28000,Mississippi,2020,Millions of current dollars,6,116709.4
+SAGDP2-1,28000,Mississippi,2021,Millions of current dollars,6,129944.7
+SAGDP2-1,28000,Mississippi,2022,Millions of current dollars,6,142762.3
+SAGDP2-1,28000,Mississippi,2023,Millions of current dollars,6,151146.7
+SAGDP2-1,28000,Mississippi,2024,Millions of current dollars,6,157491.0
+SAGDP2-1,29000,Missouri,2020,Millions of current dollars,6,335285.1
+SAGDP2-1,29000,Missouri,2021,Millions of current dollars,6,366441.5
+SAGDP2-1,29000,Missouri,2022,Millions of current dollars,6,400265.1
+SAGDP2-1,29000,Missouri,2023,Millions of current dollars,6,430114.4
+SAGDP2-1,29000,Missouri,2024,Millions of current dollars,6,451201.4
+SAGDP2-1,30000,Montana,2020,Millions of current dollars,6,52958.8
+SAGDP2-1,30000,Montana,2021,Millions of current dollars,6,60399.7
+SAGDP2-1,30000,Montana,2022,Millions of current dollars,6,68702.0
+SAGDP2-1,30000,Montana,2023,Millions of current dollars,6,73254.5
+SAGDP2-1,30000,Montana,2024,Millions of current dollars,6,75999.2
+SAGDP2-1,31000,Nebraska,2020,Millions of current dollars,6,135149.4
+SAGDP2-1,31000,Nebraska,2021,Millions of current dollars,6,150836.1
+SAGDP2-1,31000,Nebraska,2022,Millions of current dollars,6,167480.2
+SAGDP2-1,31000,Nebraska,2023,Millions of current dollars,6,181285.0
+SAGDP2-1,31000,Nebraska,2024,Millions of current dollars,6,185411.0
+SAGDP2-1,32000,Nevada,2020,Millions of current dollars,6,176296.3
+SAGDP2-1,32000,Nevada,2021,Millions of current dollars,6,201705.7
+SAGDP2-1,32000,Nevada,2022,Millions of current dollars,6,227320.6
+SAGDP2-1,32000,Nevada,2023,Millions of current dollars,6,245978.8
+SAGDP2-1,32000,Nevada,2024,Millions of current dollars,6,260728.4
+SAGDP2-1,33000,New Hampshire,2020,Millions of current dollars,6,88527.7
+SAGDP2-1,33000,New Hampshire,2021,Millions of current dollars,6,99092.6
+SAGDP2-1,33000,New Hampshire,2022,Millions of current dollars,6,106488.0
+SAGDP2-1,33000,New Hampshire,2023,Millions of current dollars,6,114100.8
+SAGDP2-1,33000,New Hampshire,2024,Millions of current dollars,6,121189.4
+SAGDP2-1,34000,New Jersey,2020,Millions of current dollars,6,631552.3
+SAGDP2-1,34000,New Jersey,2021,Millions of current dollars,6,695443.2
+SAGDP2-1,34000,New Jersey,2022,Millions of current dollars,6,758288.7
+SAGDP2-1,34000,New Jersey,2023,Millions of current dollars,6,806665.2
+SAGDP2-1,34000,New Jersey,2024,Millions of current dollars,6,846587.5
+SAGDP2-1,35000,New Mexico,2020,Millions of current dollars,6,100656.4
+SAGDP2-1,35000,New Mexico,2021,Millions of current dollars,6,112978.5
+SAGDP2-1,35000,New Mexico,2022,Millions of current dollars,6,128138.8
+SAGDP2-1,35000,New Mexico,2023,Millions of current dollars,6,135009.6
+SAGDP2-1,35000,New Mexico,2024,Millions of current dollars,6,140542.0
+SAGDP2-1,36000,New York,2020,Millions of current dollars,6,1773369.8
+SAGDP2-1,36000,New York,2021,Millions of current dollars,6,1923413.3
+SAGDP2-1,36000,New York,2022,Millions of current dollars,6,2052758.8
+SAGDP2-1,36000,New York,2023,Millions of current dollars,6,2172009.6
+SAGDP2-1,36000,New York,2024,Millions of current dollars,6,2297028.0
+SAGDP2-1,37000,North Carolina,2020,Millions of current dollars,6,600683.3
+SAGDP2-1,37000,North Carolina,2021,Millions of current dollars,6,662147.1
+SAGDP2-1,37000,North Carolina,2022,Millions of current dollars,6,728498.7
+SAGDP2-1,37000,North Carolina,2023,Millions of current dollars,6,788103.2
+SAGDP2-1,37000,North Carolina,2024,Millions of current dollars,6,839122.2
+SAGDP2-1,38000,North Dakota,2020,Millions of current dollars,6,55568.5
+SAGDP2-1,38000,North Dakota,2021,Millions of current dollars,6,63838.5
+SAGDP2-1,38000,North Dakota,2022,Millions of current dollars,6,73780.0
+SAGDP2-1,38000,North Dakota,2023,Millions of current dollars,6,76043.3
+SAGDP2-1,38000,North Dakota,2024,Millions of current dollars,6,75399.4
+SAGDP2-1,39000,Ohio,2020,Millions of current dollars,6,692683.7
+SAGDP2-1,39000,Ohio,2021,Millions of current dollars,6,763595.8
+SAGDP2-1,39000,Ohio,2022,Millions of current dollars,6,832660.7
+SAGDP2-1,39000,Ohio,2023,Millions of current dollars,6,884834.2
+SAGDP2-1,39000,Ohio,2024,Millions of current dollars,6,927740.1
+SAGDP2-1,40000,Oklahoma,2020,Millions of current dollars,6,192516.2
+SAGDP2-1,40000,Oklahoma,2021,Millions of current dollars,6,217786.5
+SAGDP2-1,40000,Oklahoma,2022,Millions of current dollars,6,245976.2
+SAGDP2-1,40000,Oklahoma,2023,Millions of current dollars,6,256689.4
+SAGDP2-1,40000,Oklahoma,2024,Millions of current dollars,6,265779.1
+SAGDP2-1,41000,Oregon,2020,Millions of current dollars,6,251577.7
+SAGDP2-1,41000,Oregon,2021,Millions of current dollars,6,275653.1
+SAGDP2-1,41000,Oregon,2022,Millions of current dollars,6,298848.0
+SAGDP2-1,41000,Oregon,2023,Millions of current dollars,6,318884.1
+SAGDP2-1,41000,Oregon,2024,Millions of current dollars,6,331028.6
+SAGDP2-1,42000,Pennsylvania,2020,Millions of current dollars,6,777000.8
+SAGDP2-1,42000,Pennsylvania,2021,Millions of current dollars,6,844431.8
+SAGDP2-1,42000,Pennsylvania,2022,Millions of current dollars,6,919741.1
+SAGDP2-1,42000,Pennsylvania,2023,Millions of current dollars,6,976360.8
+SAGDP2-1,42000,Pennsylvania,2024,Millions of current dollars,6,1024206.3
+SAGDP2-1,44000,Rhode Island,2020,Millions of current dollars,6,62124.9
+SAGDP2-1,44000,Rhode Island,2021,Millions of current dollars,6,67228.3
+SAGDP2-1,44000,Rhode Island,2022,Millions of current dollars,6,72869.2
+SAGDP2-1,44000,Rhode Island,2023,Millions of current dollars,6,77573.9
+SAGDP2-1,44000,Rhode Island,2024,Millions of current dollars,6,82492.5
+SAGDP2-1,45000,South Carolina,2020,Millions of current dollars,6,249430.2
+SAGDP2-1,45000,South Carolina,2021,Millions of current dollars,6,272384.7
+SAGDP2-1,45000,South Carolina,2022,Millions of current dollars,6,301945.1
+SAGDP2-1,45000,South Carolina,2023,Millions of current dollars,6,327420.1
+SAGDP2-1,45000,South Carolina,2024,Millions of current dollars,6,349965.4
+SAGDP2-1,46000,South Dakota,2020,Millions of current dollars,6,56254.4
+SAGDP2-1,46000,South Dakota,2021,Millions of current dollars,6,62984.8
+SAGDP2-1,46000,South Dakota,2022,Millions of current dollars,6,69069.3
+SAGDP2-1,46000,South Dakota,2023,Millions of current dollars,6,74033.9
+SAGDP2-1,46000,South Dakota,2024,Millions of current dollars,6,75179.5
+SAGDP2-1,47000,Tennessee,2020,Millions of current dollars,6,391563.2
+SAGDP2-1,47000,Tennessee,2021,Millions of current dollars,6,441952.5
+SAGDP2-1,47000,Tennessee,2022,Millions of current dollars,6,488670.1
+SAGDP2-1,47000,Tennessee,2023,Millions of current dollars,6,523031.6
+SAGDP2-1,47000,Tennessee,2024,Millions of current dollars,6,549708.5
+SAGDP2-1,48000,Texas,2020,Millions of current dollars,6,1802143.7
+SAGDP2-1,48000,Texas,2021,Millions of current dollars,6,2088972.3
+SAGDP2-1,48000,Texas,2022,Millions of current dollars,6,2436925.0
+SAGDP2-1,48000,Texas,2023,Millions of current dollars,6,2583866.2
+SAGDP2-1,48000,Texas,2024,Millions of current dollars,6,2709392.9
+SAGDP2-1,49000,Utah,2020,Millions of current dollars,6,205647.9
+SAGDP2-1,49000,Utah,2021,Millions of current dollars,6,232561.9
+SAGDP2-1,49000,Utah,2022,Millions of current dollars,6,261080.8
+SAGDP2-1,49000,Utah,2023,Millions of current dollars,6,281329.1
+SAGDP2-1,49000,Utah,2024,Millions of current dollars,6,300903.8
+SAGDP2-1,50000,Vermont,2020,Millions of current dollars,6,34414.9
+SAGDP2-1,50000,Vermont,2021,Millions of current dollars,6,37438.8
+SAGDP2-1,50000,Vermont,2022,Millions of current dollars,6,41011.6
+SAGDP2-1,50000,Vermont,2023,Millions of current dollars,6,43533.8
+SAGDP2-1,50000,Vermont,2024,Millions of current dollars,6,45707.2
+SAGDP2-1,51000,Virginia,2020,Millions of current dollars,6,565466.8
+SAGDP2-1,51000,Virginia,2021,Millions of current dollars,6,615984.7
+SAGDP2-1,51000,Virginia,2022,Millions of current dollars,6,666681.8
+SAGDP2-1,51000,Virginia,2023,Millions of current dollars,6,719896.9
+SAGDP2-1,51000,Virginia,2024,Millions of current dollars,6,764474.8
+SAGDP2-1,53000,Washington,2020,Millions of current dollars,6,620132.9
+SAGDP2-1,53000,Washington,2021,Millions of current dollars,6,687702.3
+SAGDP2-1,53000,Washington,2022,Millions of current dollars,6,742909.5
+SAGDP2-1,53000,Washington,2023,Millions of current dollars,6,807864.5
+SAGDP2-1,53000,Washington,2024,Millions of current dollars,6,854683.3
+SAGDP2-1,54000,West Virginia,2020,Millions of current dollars,6,77430.9
+SAGDP2-1,54000,West Virginia,2021,Millions of current dollars,6,86550.5
+SAGDP2-1,54000,West Virginia,2022,Millions of current dollars,6,98290.0
+SAGDP2-1,54000,West Virginia,2023,Millions of current dollars,6,102151.8
+SAGDP2-1,54000,West Virginia,2024,Millions of current dollars,6,107660.1
+SAGDP2-1,55000,Wisconsin,2020,Millions of current dollars,6,343272.2
+SAGDP2-1,55000,Wisconsin,2021,Millions of current dollars,6,368880.4
+SAGDP2-1,55000,Wisconsin,2022,Millions of current dollars,6,400621.4
+SAGDP2-1,55000,Wisconsin,2023,Millions of current dollars,6,428447.1
+SAGDP2-1,55000,Wisconsin,2024,Millions of current dollars,6,451285.3
+SAGDP2-1,56000,Wyoming,2020,Millions of current dollars,6,36709.6
+SAGDP2-1,56000,Wyoming,2021,Millions of current dollars,6,42319.1
+SAGDP2-1,56000,Wyoming,2022,Millions of current dollars,6,49782.6
+SAGDP2-1,56000,Wyoming,2023,Millions of current dollars,6,51990.5
+SAGDP2-1,56000,Wyoming,2024,Millions of current dollars,6,52946.1
+SAGDP2-1,91000,New England,2020,Millions of current dollars,6,1127827.0
+SAGDP2-1,91000,New England,2021,Millions of current dollars,6,1229266.4
+SAGDP2-1,91000,New England,2022,Millions of current dollars,6,1324160.7
+SAGDP2-1,91000,New England,2023,Millions of current dollars,6,1410686.8
+SAGDP2-1,91000,New England,2024,Millions of current dollars,6,1494384.3
+SAGDP2-1,92000,Mideast,2020,Millions of current dollars,6,3819558.7
+SAGDP2-1,92000,Mideast,2021,Millions of current dollars,6,4150649.2
+SAGDP2-1,92000,Mideast,2022,Millions of current dollars,6,4474022.8
+SAGDP2-1,92000,Mideast,2023,Millions of current dollars,6,4745213.4
+SAGDP2-1,92000,Mideast,2024,Millions of current dollars,6,5000005.9
+SAGDP2-1,93000,Great Lakes,2020,Millions of current dollars,6,2804937.9
+SAGDP2-1,93000,Great Lakes,2021,Millions of current dollars,6,3080232.8
+SAGDP2-1,93000,Great Lakes,2022,Millions of current dollars,6,3374137.4
+SAGDP2-1,93000,Great Lakes,2023,Millions of current dollars,6,3584948.6
+SAGDP2-1,93000,Great Lakes,2024,Millions of current dollars,6,3750265.9
+SAGDP2-1,94000,Plains,2020,Millions of current dollars,6,1336823.2
+SAGDP2-1,94000,Plains,2021,Millions of current dollars,6,1476248.6
+SAGDP2-1,94000,Plains,2022,Millions of current dollars,6,1620951.9
+SAGDP2-1,94000,Plains,2023,Millions of current dollars,6,1726903.2
+SAGDP2-1,94000,Plains,2024,Millions of current dollars,6,1779736.7
+SAGDP2-1,95000,Southeast,2020,Millions of current dollars,6,4609791.5
+SAGDP2-1,95000,Southeast,2021,Millions of current dollars,6,5132905.4
+SAGDP2-1,95000,Southeast,2022,Millions of current dollars,6,5685333.1
+SAGDP2-1,95000,Southeast,2023,Millions of current dollars,6,6122626.7
+SAGDP2-1,95000,Southeast,2024,Millions of current dollars,6,6487285.2
+SAGDP2-1,96000,Southwest,2020,Millions of current dollars,6,2484273.0
+SAGDP2-1,96000,Southwest,2021,Millions of current dollars,6,2856515.9
+SAGDP2-1,96000,Southwest,2022,Millions of current dollars,6,3295092.2
+SAGDP2-1,96000,Southwest,2023,Millions of current dollars,6,3498332.5
+SAGDP2-1,96000,Southwest,2024,Millions of current dollars,6,3667881.0
+SAGDP2-1,97000,Rocky Mountain,2020,Millions of current dollars,6,780157.5
+SAGDP2-1,97000,Rocky Mountain,2021,Millions of current dollars,6,880955.5
+SAGDP2-1,97000,Rocky Mountain,2022,Millions of current dollars,6,986528.2
+SAGDP2-1,97000,Rocky Mountain,2023,Millions of current dollars,6,1057159.0
+SAGDP2-1,97000,Rocky Mountain,2024,Millions of current dollars,6,1111303.8
+SAGDP2-1,98000,Far West,2020,Millions of current dollars,6,4260931.2
+SAGDP2-1,98000,Far West,2021,Millions of current dollars,6,4741363.3
+SAGDP2-1,98000,Far West,2022,Millions of current dollars,6,5098918.7
+SAGDP2-1,98000,Far West,2023,Millions of current dollars,6,5421427.9
+SAGDP2-1,98000,Far West,2024,Millions of current dollars,6,5735160.0

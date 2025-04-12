@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-04-12T12:20:12.655988",
+  "files": {
+    "datasets": "data/bea_datasets_20250412_122012.json",
+    "gdp_data_csv": "data/gdp_data_20250412_122013.csv",
+    "gdp_data_json": "data/gdp_data_20250412_122013.json",
+    "income_data_csv": "data/personal_income_data_20250412_122016.csv",
+    "income_data_json": "data/personal_income_data_20250412_122016.json",
+    "latest": "data/bea_data_latest.json"
+  },
+  "summary": {
+    "dataset_count": 13,
+    "gdp_data_points": 300,
+    "income_data_points": 300,
+    "execution_time_seconds": 3.904595,
+    "status": "success"
+  }
+}

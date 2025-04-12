@@ -1,0 +1,301 @@
+Code,GeoFips,GeoName,TimePeriod,CL_UNIT,UNIT_MULT,DataValue
+SAGDP1-1,00000,United States,2020,Millions of chained 2017 dollars,6,20267585.0
+SAGDP1-1,00000,United States,2021,Millions of chained 2017 dollars,6,21494798.0
+SAGDP1-1,00000,United States,2022,Millions of chained 2017 dollars,6,22034828.0
+SAGDP1-1,00000,United States,2023,Millions of chained 2017 dollars,6,22671096.0
+SAGDP1-1,00000,United States,2024,Millions of chained 2017 dollars,6,23305023.0
+SAGDP1-1,01000,Alabama,2020,Millions of chained 2017 dollars,6,222288.8
+SAGDP1-1,01000,Alabama,2021,Millions of chained 2017 dollars,6,233726.6
+SAGDP1-1,01000,Alabama,2022,Millions of chained 2017 dollars,6,238556.5
+SAGDP1-1,01000,Alabama,2023,Millions of chained 2017 dollars,6,245354.7
+SAGDP1-1,01000,Alabama,2024,Millions of chained 2017 dollars,6,252664.5
+SAGDP1-1,02000,Alaska,2020,Millions of chained 2017 dollars,6,50332.8
+SAGDP1-1,02000,Alaska,2021,Millions of chained 2017 dollars,6,51454.1
+SAGDP1-1,02000,Alaska,2022,Millions of chained 2017 dollars,6,50767.1
+SAGDP1-1,02000,Alaska,2023,Millions of chained 2017 dollars,6,54059.7
+SAGDP1-1,02000,Alaska,2024,Millions of chained 2017 dollars,6,54881.0
+SAGDP1-1,04000,Arizona,2020,Millions of chained 2017 dollars,6,365027.7
+SAGDP1-1,04000,Arizona,2021,Millions of chained 2017 dollars,6,395035.9
+SAGDP1-1,04000,Arizona,2022,Millions of chained 2017 dollars,6,410228.4
+SAGDP1-1,04000,Arizona,2023,Millions of chained 2017 dollars,6,422399.6
+SAGDP1-1,04000,Arizona,2024,Millions of chained 2017 dollars,6,433763.2
+SAGDP1-1,05000,Arkansas,2020,Millions of chained 2017 dollars,6,128340.9
+SAGDP1-1,05000,Arkansas,2021,Millions of chained 2017 dollars,6,137463.6
+SAGDP1-1,05000,Arkansas,2022,Millions of chained 2017 dollars,6,139560.7
+SAGDP1-1,05000,Arkansas,2023,Millions of chained 2017 dollars,6,142860.6
+SAGDP1-1,05000,Arkansas,2024,Millions of chained 2017 dollars,6,148208.5
+SAGDP1-1,06000,California,2020,Millions of chained 2017 dollars,6,2933320.2
+SAGDP1-1,06000,California,2021,Millions of chained 2017 dollars,6,3154188.6
+SAGDP1-1,06000,California,2022,Millions of chained 2017 dollars,6,3184007.8
+SAGDP1-1,06000,California,2023,Millions of chained 2017 dollars,6,3248656.6
+SAGDP1-1,06000,California,2024,Millions of chained 2017 dollars,6,3365083.3
+SAGDP1-1,08000,Colorado,2020,Millions of chained 2017 dollars,6,380188.8
+SAGDP1-1,08000,Colorado,2021,Millions of chained 2017 dollars,6,406451.9
+SAGDP1-1,08000,Colorado,2022,Millions of chained 2017 dollars,6,418818.8
+SAGDP1-1,08000,Colorado,2023,Millions of chained 2017 dollars,6,437056.0
+SAGDP1-1,08000,Colorado,2024,Millions of chained 2017 dollars,6,445302.4
+SAGDP1-1,09000,Connecticut,2020,Millions of chained 2017 dollars,6,260765.2
+SAGDP1-1,09000,Connecticut,2021,Millions of chained 2017 dollars,6,269838.7
+SAGDP1-1,09000,Connecticut,2022,Millions of chained 2017 dollars,6,278975.9
+SAGDP1-1,09000,Connecticut,2023,Millions of chained 2017 dollars,6,286628.4
+SAGDP1-1,09000,Connecticut,2024,Millions of chained 2017 dollars,6,294027.6
+SAGDP1-1,10000,Delaware,2020,Millions of chained 2017 dollars,6,72506.8
+SAGDP1-1,10000,Delaware,2021,Millions of chained 2017 dollars,6,74657.1
+SAGDP1-1,10000,Delaware,2022,Millions of chained 2017 dollars,6,77149.2
+SAGDP1-1,10000,Delaware,2023,Millions of chained 2017 dollars,6,78014.4
+SAGDP1-1,10000,Delaware,2024,Millions of chained 2017 dollars,6,79652.7
+SAGDP1-1,11000,District of Columbia,2020,Millions of chained 2017 dollars,6,137640.8
+SAGDP1-1,11000,District of Columbia,2021,Millions of chained 2017 dollars,6,143141.4
+SAGDP1-1,11000,District of Columbia,2022,Millions of chained 2017 dollars,6,144554.6
+SAGDP1-1,11000,District of Columbia,2023,Millions of chained 2017 dollars,6,146024.3
+SAGDP1-1,11000,District of Columbia,2024,Millions of chained 2017 dollars,6,148020.1
+SAGDP1-1,12000,Florida,2020,Millions of chained 2017 dollars,6,1069758.8
+SAGDP1-1,12000,Florida,2021,Millions of chained 2017 dollars,6,1170526.3
+SAGDP1-1,12000,Florida,2022,Millions of chained 2017 dollars,6,1239883.6
+SAGDP1-1,12000,Florida,2023,Millions of chained 2017 dollars,6,1292787.6
+SAGDP1-1,12000,Florida,2024,Millions of chained 2017 dollars,6,1339618.6
+SAGDP1-1,13000,Georgia,2020,Millions of chained 2017 dollars,6,604745.9
+SAGDP1-1,13000,Georgia,2021,Millions of chained 2017 dollars,6,643013.8
+SAGDP1-1,13000,Georgia,2022,Millions of chained 2017 dollars,6,665678.1
+SAGDP1-1,13000,Georgia,2023,Millions of chained 2017 dollars,6,678201.2
+SAGDP1-1,13000,Georgia,2024,Millions of chained 2017 dollars,6,701072.8
+SAGDP1-1,15000,Hawaii,2020,Millions of chained 2017 dollars,6,79840.1
+SAGDP1-1,15000,Hawaii,2021,Millions of chained 2017 dollars,6,84408.5
+SAGDP1-1,15000,Hawaii,2022,Millions of chained 2017 dollars,6,86887.8
+SAGDP1-1,15000,Hawaii,2023,Millions of chained 2017 dollars,6,88614.3
+SAGDP1-1,15000,Hawaii,2024,Millions of chained 2017 dollars,6,90280.2
+SAGDP1-1,16000,Idaho,2020,Millions of chained 2017 dollars,6,82717.4
+SAGDP1-1,16000,Idaho,2021,Millions of chained 2017 dollars,6,88969.6
+SAGDP1-1,16000,Idaho,2022,Millions of chained 2017 dollars,6,92903.7
+SAGDP1-1,16000,Idaho,2023,Millions of chained 2017 dollars,6,95897.9
+SAGDP1-1,16000,Idaho,2024,Millions of chained 2017 dollars,6,99603.0
+SAGDP1-1,17000,Illinois,2020,Millions of chained 2017 dollars,6,810200.9
+SAGDP1-1,17000,Illinois,2021,Millions of chained 2017 dollars,6,855888.1
+SAGDP1-1,17000,Illinois,2022,Millions of chained 2017 dollars,6,876536.0
+SAGDP1-1,17000,Illinois,2023,Millions of chained 2017 dollars,6,885651.3
+SAGDP1-1,17000,Illinois,2024,Millions of chained 2017 dollars,6,895342.5
+SAGDP1-1,18000,Indiana,2020,Millions of chained 2017 dollars,6,359787.3
+SAGDP1-1,18000,Indiana,2021,Millions of chained 2017 dollars,6,387122.0
+SAGDP1-1,18000,Indiana,2022,Millions of chained 2017 dollars,6,399280.8
+SAGDP1-1,18000,Indiana,2023,Millions of chained 2017 dollars,6,404290.3
+SAGDP1-1,18000,Indiana,2024,Millions of chained 2017 dollars,6,419472.8
+SAGDP1-1,19000,Iowa,2020,Millions of chained 2017 dollars,6,186328.2
+SAGDP1-1,19000,Iowa,2021,Millions of chained 2017 dollars,6,201147.1
+SAGDP1-1,19000,Iowa,2022,Millions of chained 2017 dollars,6,201580.4
+SAGDP1-1,19000,Iowa,2023,Millions of chained 2017 dollars,6,202051.4
+SAGDP1-1,19000,Iowa,2024,Millions of chained 2017 dollars,6,201096.8
+SAGDP1-1,20000,Kansas,2020,Millions of chained 2017 dollars,6,168056.8
+SAGDP1-1,20000,Kansas,2021,Millions of chained 2017 dollars,6,172782.4
+SAGDP1-1,20000,Kansas,2022,Millions of chained 2017 dollars,6,177470.1
+SAGDP1-1,20000,Kansas,2023,Millions of chained 2017 dollars,6,183795.6
+SAGDP1-1,20000,Kansas,2024,Millions of chained 2017 dollars,6,185720.9
+SAGDP1-1,21000,Kentucky,2020,Millions of chained 2017 dollars,6,206049.6
+SAGDP1-1,21000,Kentucky,2021,Millions of chained 2017 dollars,6,215133.2
+SAGDP1-1,21000,Kentucky,2022,Millions of chained 2017 dollars,6,219755.6
+SAGDP1-1,21000,Kentucky,2023,Millions of chained 2017 dollars,6,224418.0
+SAGDP1-1,21000,Kentucky,2024,Millions of chained 2017 dollars,6,229885.4
+SAGDP1-1,22000,Louisiana,2020,Millions of chained 2017 dollars,6,228951.3
+SAGDP1-1,22000,Louisiana,2021,Millions of chained 2017 dollars,6,237839.2
+SAGDP1-1,22000,Louisiana,2022,Millions of chained 2017 dollars,6,236854.1
+SAGDP1-1,22000,Louisiana,2023,Millions of chained 2017 dollars,6,248615.5
+SAGDP1-1,22000,Louisiana,2024,Millions of chained 2017 dollars,6,256422.3
+SAGDP1-1,23000,Maine,2020,Millions of chained 2017 dollars,6,67410.9
+SAGDP1-1,23000,Maine,2021,Millions of chained 2017 dollars,6,71142.4
+SAGDP1-1,23000,Maine,2022,Millions of chained 2017 dollars,6,73036.2
+SAGDP1-1,23000,Maine,2023,Millions of chained 2017 dollars,6,75195.4
+SAGDP1-1,23000,Maine,2024,Millions of chained 2017 dollars,6,77477.5
+SAGDP1-1,24000,Maryland,2020,Millions of chained 2017 dollars,6,388782.8
+SAGDP1-1,24000,Maryland,2021,Millions of chained 2017 dollars,6,406953.1
+SAGDP1-1,24000,Maryland,2022,Millions of chained 2017 dollars,6,416406.2
+SAGDP1-1,24000,Maryland,2023,Millions of chained 2017 dollars,6,422866.3
+SAGDP1-1,24000,Maryland,2024,Millions of chained 2017 dollars,6,432192.7
+SAGDP1-1,25000,Massachusetts,2020,Millions of chained 2017 dollars,6,559765.0
+SAGDP1-1,25000,Massachusetts,2021,Millions of chained 2017 dollars,6,595911.8
+SAGDP1-1,25000,Massachusetts,2022,Millions of chained 2017 dollars,6,608052.9
+SAGDP1-1,25000,Massachusetts,2023,Millions of chained 2017 dollars,6,615504.5
+SAGDP1-1,25000,Massachusetts,2024,Millions of chained 2017 dollars,6,633617.6
+SAGDP1-1,26000,Michigan,2020,Millions of chained 2017 dollars,6,501893.8
+SAGDP1-1,26000,Michigan,2021,Millions of chained 2017 dollars,6,530380.9
+SAGDP1-1,26000,Michigan,2022,Millions of chained 2017 dollars,6,543720.9
+SAGDP1-1,26000,Michigan,2023,Millions of chained 2017 dollars,6,554256.2
+SAGDP1-1,26000,Michigan,2024,Millions of chained 2017 dollars,6,566033.3
+SAGDP1-1,27000,Minnesota,2020,Millions of chained 2017 dollars,6,357475.6
+SAGDP1-1,27000,Minnesota,2021,Millions of chained 2017 dollars,6,377947.0
+SAGDP1-1,27000,Minnesota,2022,Millions of chained 2017 dollars,6,384727.7
+SAGDP1-1,27000,Minnesota,2023,Millions of chained 2017 dollars,6,390907.9
+SAGDP1-1,27000,Minnesota,2024,Millions of chained 2017 dollars,6,395307.1
+SAGDP1-1,28000,Mississippi,2020,Millions of chained 2017 dollars,6,110322.8
+SAGDP1-1,28000,Mississippi,2021,Millions of chained 2017 dollars,6,115675.1
+SAGDP1-1,28000,Mississippi,2022,Millions of chained 2017 dollars,6,116557.1
+SAGDP1-1,28000,Mississippi,2023,Millions of chained 2017 dollars,6,119548.4
+SAGDP1-1,28000,Mississippi,2024,Millions of chained 2017 dollars,6,122438.1
+SAGDP1-1,29000,Missouri,2020,Millions of chained 2017 dollars,6,315332.6
+SAGDP1-1,29000,Missouri,2021,Millions of chained 2017 dollars,6,331580.9
+SAGDP1-1,29000,Missouri,2022,Millions of chained 2017 dollars,6,339652.4
+SAGDP1-1,29000,Missouri,2023,Millions of chained 2017 dollars,6,348487.4
+SAGDP1-1,29000,Missouri,2024,Millions of chained 2017 dollars,6,356653.4
+SAGDP1-1,30000,Montana,2020,Millions of chained 2017 dollars,6,49981.4
+SAGDP1-1,30000,Montana,2021,Millions of chained 2017 dollars,6,53303.7
+SAGDP1-1,30000,Montana,2022,Millions of chained 2017 dollars,6,55193.9
+SAGDP1-1,30000,Montana,2023,Millions of chained 2017 dollars,6,57373.3
+SAGDP1-1,30000,Montana,2024,Millions of chained 2017 dollars,6,58519.7
+SAGDP1-1,31000,Nebraska,2020,Millions of chained 2017 dollars,6,126734.9
+SAGDP1-1,31000,Nebraska,2021,Millions of chained 2017 dollars,6,134939.9
+SAGDP1-1,31000,Nebraska,2022,Millions of chained 2017 dollars,6,139440.9
+SAGDP1-1,31000,Nebraska,2023,Millions of chained 2017 dollars,6,145019.6
+SAGDP1-1,31000,Nebraska,2024,Millions of chained 2017 dollars,6,145909.4
+SAGDP1-1,32000,Nevada,2020,Millions of chained 2017 dollars,6,166077.0
+SAGDP1-1,32000,Nevada,2021,Millions of chained 2017 dollars,6,182474.1
+SAGDP1-1,32000,Nevada,2022,Millions of chained 2017 dollars,6,190463.3
+SAGDP1-1,32000,Nevada,2023,Millions of chained 2017 dollars,6,195405.6
+SAGDP1-1,32000,Nevada,2024,Millions of chained 2017 dollars,6,200921.3
+SAGDP1-1,33000,New Hampshire,2020,Millions of chained 2017 dollars,6,83152.6
+SAGDP1-1,33000,New Hampshire,2021,Millions of chained 2017 dollars,6,89949.3
+SAGDP1-1,33000,New Hampshire,2022,Millions of chained 2017 dollars,6,91416.1
+SAGDP1-1,33000,New Hampshire,2023,Millions of chained 2017 dollars,6,93466.7
+SAGDP1-1,33000,New Hampshire,2024,Millions of chained 2017 dollars,6,96501.1
+SAGDP1-1,34000,New Jersey,2020,Millions of chained 2017 dollars,6,597221.4
+SAGDP1-1,34000,New Jersey,2021,Millions of chained 2017 dollars,6,632463.3
+SAGDP1-1,34000,New Jersey,2022,Millions of chained 2017 dollars,6,650235.8
+SAGDP1-1,34000,New Jersey,2023,Millions of chained 2017 dollars,6,663888.5
+SAGDP1-1,34000,New Jersey,2024,Millions of chained 2017 dollars,6,678968.4
+SAGDP1-1,35000,New Mexico,2020,Millions of chained 2017 dollars,6,97622.4
+SAGDP1-1,35000,New Mexico,2021,Millions of chained 2017 dollars,6,100917.6
+SAGDP1-1,35000,New Mexico,2022,Millions of chained 2017 dollars,6,103301.6
+SAGDP1-1,35000,New Mexico,2023,Millions of chained 2017 dollars,6,110323.7
+SAGDP1-1,35000,New Mexico,2024,Millions of chained 2017 dollars,6,112800.8
+SAGDP1-1,36000,New York,2020,Millions of chained 2017 dollars,6,1656784.8
+SAGDP1-1,36000,New York,2021,Millions of chained 2017 dollars,6,1736222.3
+SAGDP1-1,36000,New York,2022,Millions of chained 2017 dollars,6,1765102.1
+SAGDP1-1,36000,New York,2023,Millions of chained 2017 dollars,6,1791210.7
+SAGDP1-1,36000,New York,2024,Millions of chained 2017 dollars,6,1834560.8
+SAGDP1-1,37000,North Carolina,2020,Millions of chained 2017 dollars,6,564504.4
+SAGDP1-1,37000,North Carolina,2021,Millions of chained 2017 dollars,6,600217.3
+SAGDP1-1,37000,North Carolina,2022,Millions of chained 2017 dollars,6,619537.2
+SAGDP1-1,37000,North Carolina,2023,Millions of chained 2017 dollars,6,638067.3
+SAGDP1-1,37000,North Carolina,2024,Millions of chained 2017 dollars,6,661947.8
+SAGDP1-1,38000,North Dakota,2020,Millions of chained 2017 dollars,6,55850.6
+SAGDP1-1,38000,North Dakota,2021,Millions of chained 2017 dollars,6,56419.2
+SAGDP1-1,38000,North Dakota,2022,Millions of chained 2017 dollars,6,55988.0
+SAGDP1-1,38000,North Dakota,2023,Millions of chained 2017 dollars,6,60348.6
+SAGDP1-1,38000,North Dakota,2024,Millions of chained 2017 dollars,6,59916.0
+SAGDP1-1,39000,Ohio,2020,Millions of chained 2017 dollars,6,655243.3
+SAGDP1-1,39000,Ohio,2021,Millions of chained 2017 dollars,6,690478.9
+SAGDP1-1,39000,Ohio,2022,Millions of chained 2017 dollars,6,695257.9
+SAGDP1-1,39000,Ohio,2023,Millions of chained 2017 dollars,6,709816.6
+SAGDP1-1,39000,Ohio,2024,Millions of chained 2017 dollars,6,727262.4
+SAGDP1-1,40000,Oklahoma,2020,Millions of chained 2017 dollars,6,191560.9
+SAGDP1-1,40000,Oklahoma,2021,Millions of chained 2017 dollars,6,194132.8
+SAGDP1-1,40000,Oklahoma,2022,Millions of chained 2017 dollars,6,193940.5
+SAGDP1-1,40000,Oklahoma,2023,Millions of chained 2017 dollars,6,207923.3
+SAGDP1-1,40000,Oklahoma,2024,Millions of chained 2017 dollars,6,212783.8
+SAGDP1-1,41000,Oregon,2020,Millions of chained 2017 dollars,6,237424.2
+SAGDP1-1,41000,Oregon,2021,Millions of chained 2017 dollars,6,250325.8
+SAGDP1-1,41000,Oregon,2022,Millions of chained 2017 dollars,6,256062.7
+SAGDP1-1,41000,Oregon,2023,Millions of chained 2017 dollars,6,261951.5
+SAGDP1-1,41000,Oregon,2024,Millions of chained 2017 dollars,6,265146.9
+SAGDP1-1,42000,Pennsylvania,2020,Millions of chained 2017 dollars,6,736381.3
+SAGDP1-1,42000,Pennsylvania,2021,Millions of chained 2017 dollars,6,765508.8
+SAGDP1-1,42000,Pennsylvania,2022,Millions of chained 2017 dollars,6,779360.6
+SAGDP1-1,42000,Pennsylvania,2023,Millions of chained 2017 dollars,6,799228.8
+SAGDP1-1,42000,Pennsylvania,2024,Millions of chained 2017 dollars,6,818529.4
+SAGDP1-1,44000,Rhode Island,2020,Millions of chained 2017 dollars,6,58231.7
+SAGDP1-1,44000,Rhode Island,2021,Millions of chained 2017 dollars,6,60803.0
+SAGDP1-1,44000,Rhode Island,2022,Millions of chained 2017 dollars,6,62279.4
+SAGDP1-1,44000,Rhode Island,2023,Millions of chained 2017 dollars,6,63277.0
+SAGDP1-1,44000,Rhode Island,2024,Millions of chained 2017 dollars,6,65281.5
+SAGDP1-1,45000,South Carolina,2020,Millions of chained 2017 dollars,6,233650.1
+SAGDP1-1,45000,South Carolina,2021,Millions of chained 2017 dollars,6,245752.1
+SAGDP1-1,45000,South Carolina,2022,Millions of chained 2017 dollars,6,254504.5
+SAGDP1-1,45000,South Carolina,2023,Millions of chained 2017 dollars,6,262298.5
+SAGDP1-1,45000,South Carolina,2024,Millions of chained 2017 dollars,6,273324.6
+SAGDP1-1,46000,South Dakota,2020,Millions of chained 2017 dollars,6,52770.7
+SAGDP1-1,46000,South Dakota,2021,Millions of chained 2017 dollars,6,55515.9
+SAGDP1-1,46000,South Dakota,2022,Millions of chained 2017 dollars,6,55259.8
+SAGDP1-1,46000,South Dakota,2023,Millions of chained 2017 dollars,6,57275.1
+SAGDP1-1,46000,South Dakota,2024,Millions of chained 2017 dollars,6,57498.1
+SAGDP1-1,47000,Tennessee,2020,Millions of chained 2017 dollars,6,367863.6
+SAGDP1-1,47000,Tennessee,2021,Millions of chained 2017 dollars,6,400243.6
+SAGDP1-1,47000,Tennessee,2022,Millions of chained 2017 dollars,6,414470.8
+SAGDP1-1,47000,Tennessee,2023,Millions of chained 2017 dollars,6,422087.7
+SAGDP1-1,47000,Tennessee,2024,Millions of chained 2017 dollars,6,432266.2
+SAGDP1-1,48000,Texas,2020,Millions of chained 2017 dollars,6,1773657.1
+SAGDP1-1,48000,Texas,2021,Millions of chained 2017 dollars,6,1879101.3
+SAGDP1-1,48000,Texas,2022,Millions of chained 2017 dollars,6,1952708.6
+SAGDP1-1,48000,Texas,2023,Millions of chained 2017 dollars,6,2097090.4
+SAGDP1-1,48000,Texas,2024,Millions of chained 2017 dollars,6,2172368.5
+SAGDP1-1,49000,Utah,2020,Millions of chained 2017 dollars,6,194750.2
+SAGDP1-1,49000,Utah,2021,Millions of chained 2017 dollars,6,210446.9
+SAGDP1-1,49000,Utah,2022,Millions of chained 2017 dollars,6,217442.5
+SAGDP1-1,49000,Utah,2023,Millions of chained 2017 dollars,6,225459.4
+SAGDP1-1,49000,Utah,2024,Millions of chained 2017 dollars,6,235715.5
+SAGDP1-1,50000,Vermont,2020,Millions of chained 2017 dollars,6,32252.7
+SAGDP1-1,50000,Vermont,2021,Millions of chained 2017 dollars,6,33721.9
+SAGDP1-1,50000,Vermont,2022,Millions of chained 2017 dollars,6,34752.6
+SAGDP1-1,50000,Vermont,2023,Millions of chained 2017 dollars,6,35236.6
+SAGDP1-1,50000,Vermont,2024,Millions of chained 2017 dollars,6,36041.3
+SAGDP1-1,51000,Virginia,2020,Millions of chained 2017 dollars,6,534532.3
+SAGDP1-1,51000,Virginia,2021,Millions of chained 2017 dollars,6,565470.6
+SAGDP1-1,51000,Virginia,2022,Millions of chained 2017 dollars,6,580475.2
+SAGDP1-1,51000,Virginia,2023,Millions of chained 2017 dollars,6,597597.1
+SAGDP1-1,51000,Virginia,2024,Millions of chained 2017 dollars,6,616057.7
+SAGDP1-1,53000,Washington,2020,Millions of chained 2017 dollars,6,589156.8
+SAGDP1-1,53000,Washington,2021,Millions of chained 2017 dollars,6,630051.5
+SAGDP1-1,53000,Washington,2022,Millions of chained 2017 dollars,6,644075.1
+SAGDP1-1,53000,Washington,2023,Millions of chained 2017 dollars,6,677238.0
+SAGDP1-1,53000,Washington,2024,Millions of chained 2017 dollars,6,702034.4
+SAGDP1-1,54000,West Virginia,2020,Millions of chained 2017 dollars,6,74553.8
+SAGDP1-1,54000,West Virginia,2021,Millions of chained 2017 dollars,6,75765.1
+SAGDP1-1,54000,West Virginia,2022,Millions of chained 2017 dollars,6,77188.0
+SAGDP1-1,54000,West Virginia,2023,Millions of chained 2017 dollars,6,80798.2
+SAGDP1-1,54000,West Virginia,2024,Millions of chained 2017 dollars,6,83653.6
+SAGDP1-1,55000,Wisconsin,2020,Millions of chained 2017 dollars,6,322470.6
+SAGDP1-1,55000,Wisconsin,2021,Millions of chained 2017 dollars,6,334514.0
+SAGDP1-1,55000,Wisconsin,2022,Millions of chained 2017 dollars,6,339747.9
+SAGDP1-1,55000,Wisconsin,2023,Millions of chained 2017 dollars,6,344570.8
+SAGDP1-1,55000,Wisconsin,2024,Millions of chained 2017 dollars,6,354075.9
+SAGDP1-1,56000,Wyoming,2020,Millions of chained 2017 dollars,6,36198.2
+SAGDP1-1,56000,Wyoming,2021,Millions of chained 2017 dollars,6,37131.8
+SAGDP1-1,56000,Wyoming,2022,Millions of chained 2017 dollars,6,37827.2
+SAGDP1-1,56000,Wyoming,2023,Millions of chained 2017 dollars,6,40210.8
+SAGDP1-1,56000,Wyoming,2024,Millions of chained 2017 dollars,6,40516.2
+SAGDP1-1,91000,New England,2020,Millions of chained 2017 dollars,6,1061531.8
+SAGDP1-1,91000,New England,2021,Millions of chained 2017 dollars,6,1121276.2
+SAGDP1-1,91000,New England,2022,Millions of chained 2017 dollars,6,1148442.2
+SAGDP1-1,91000,New England,2023,Millions of chained 2017 dollars,6,1169288.3
+SAGDP1-1,91000,New England,2024,Millions of chained 2017 dollars,6,1202927.8
+SAGDP1-1,92000,Mideast,2020,Millions of chained 2017 dollars,6,3589546.7
+SAGDP1-1,92000,Mideast,2021,Millions of chained 2017 dollars,6,3759180.4
+SAGDP1-1,92000,Mideast,2022,Millions of chained 2017 dollars,6,3833059.5
+SAGDP1-1,92000,Mideast,2023,Millions of chained 2017 dollars,6,3901561.0
+SAGDP1-1,92000,Mideast,2024,Millions of chained 2017 dollars,6,3992266.7
+SAGDP1-1,93000,Great Lakes,2020,Millions of chained 2017 dollars,6,2649553.3
+SAGDP1-1,93000,Great Lakes,2021,Millions of chained 2017 dollars,6,2798288.6
+SAGDP1-1,93000,Great Lakes,2022,Millions of chained 2017 dollars,6,2854331.0
+SAGDP1-1,93000,Great Lakes,2023,Millions of chained 2017 dollars,6,2898354.6
+SAGDP1-1,93000,Great Lakes,2024,Millions of chained 2017 dollars,6,2961958.9
+SAGDP1-1,94000,Plains,2020,Millions of chained 2017 dollars,6,1262663.1
+SAGDP1-1,94000,Plains,2021,Millions of chained 2017 dollars,6,1330505.9
+SAGDP1-1,94000,Plains,2022,Millions of chained 2017 dollars,6,1354128.6
+SAGDP1-1,94000,Plains,2023,Millions of chained 2017 dollars,6,1388150.7
+SAGDP1-1,94000,Plains,2024,Millions of chained 2017 dollars,6,1402346.5
+SAGDP1-1,95000,Southeast,2020,Millions of chained 2017 dollars,6,4345697.4
+SAGDP1-1,95000,Southeast,2021,Millions of chained 2017 dollars,6,4641104.5
+SAGDP1-1,95000,Southeast,2022,Millions of chained 2017 dollars,6,4802786.2
+SAGDP1-1,95000,Southeast,2023,Millions of chained 2017 dollars,6,4952758.9
+SAGDP1-1,95000,Southeast,2024,Millions of chained 2017 dollars,6,5117774.1
+SAGDP1-1,96000,Southwest,2020,Millions of chained 2017 dollars,6,2428217.3
+SAGDP1-1,96000,Southwest,2021,Millions of chained 2017 dollars,6,2569596.0
+SAGDP1-1,96000,Southwest,2022,Millions of chained 2017 dollars,6,2660434.4
+SAGDP1-1,96000,Southwest,2023,Millions of chained 2017 dollars,6,2838599.1
+SAGDP1-1,96000,Southwest,2024,Millions of chained 2017 dollars,6,2932689.6
+SAGDP1-1,97000,Rocky Mountain,2020,Millions of chained 2017 dollars,6,743870.7
+SAGDP1-1,97000,Rocky Mountain,2021,Millions of chained 2017 dollars,6,796343.1
+SAGDP1-1,97000,Rocky Mountain,2022,Millions of chained 2017 dollars,6,822215.2
+SAGDP1-1,97000,Rocky Mountain,2023,Millions of chained 2017 dollars,6,856063.1
+SAGDP1-1,97000,Rocky Mountain,2024,Millions of chained 2017 dollars,6,879815.0
+SAGDP1-1,98000,Far West,2020,Millions of chained 2017 dollars,6,4055843.5
+SAGDP1-1,98000,Far West,2021,Millions of chained 2017 dollars,6,4352483.0
+SAGDP1-1,98000,Far West,2022,Millions of chained 2017 dollars,6,4411936.1
+SAGDP1-1,98000,Far West,2023,Millions of chained 2017 dollars,6,4525827.9
+SAGDP1-1,98000,Far West,2024,Millions of chained 2017 dollars,6,4677970.8

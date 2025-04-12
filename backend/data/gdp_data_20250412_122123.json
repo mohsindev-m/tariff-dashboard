@@ -1,0 +1,2752 @@
+{
+  "data": [
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "00000",
+      "GeoName": "United States",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "20267585.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "00000",
+      "GeoName": "United States",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "21494798.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "00000",
+      "GeoName": "United States",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "22034828.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "00000",
+      "GeoName": "United States",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "22671096.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "00000",
+      "GeoName": "United States",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "23305023.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "01000",
+      "GeoName": "Alabama",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "222288.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "01000",
+      "GeoName": "Alabama",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "233726.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "01000",
+      "GeoName": "Alabama",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "238556.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "01000",
+      "GeoName": "Alabama",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "245354.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "01000",
+      "GeoName": "Alabama",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "252664.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "02000",
+      "GeoName": "Alaska",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "50332.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "02000",
+      "GeoName": "Alaska",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "51454.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "02000",
+      "GeoName": "Alaska",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "50767.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "02000",
+      "GeoName": "Alaska",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "54059.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "02000",
+      "GeoName": "Alaska",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "54881.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "04000",
+      "GeoName": "Arizona",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "365027.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "04000",
+      "GeoName": "Arizona",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "395035.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "04000",
+      "GeoName": "Arizona",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "410228.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "04000",
+      "GeoName": "Arizona",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "422399.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "04000",
+      "GeoName": "Arizona",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "433763.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "05000",
+      "GeoName": "Arkansas",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "128340.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "05000",
+      "GeoName": "Arkansas",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "137463.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "05000",
+      "GeoName": "Arkansas",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "139560.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "05000",
+      "GeoName": "Arkansas",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "142860.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "05000",
+      "GeoName": "Arkansas",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "148208.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "06000",
+      "GeoName": "California",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2933320.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "06000",
+      "GeoName": "California",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3154188.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "06000",
+      "GeoName": "California",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3184007.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "06000",
+      "GeoName": "California",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3248656.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "06000",
+      "GeoName": "California",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3365083.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "08000",
+      "GeoName": "Colorado",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "380188.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "08000",
+      "GeoName": "Colorado",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "406451.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "08000",
+      "GeoName": "Colorado",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "418818.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "08000",
+      "GeoName": "Colorado",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "437056.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "08000",
+      "GeoName": "Colorado",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "445302.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "09000",
+      "GeoName": "Connecticut",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "260765.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "09000",
+      "GeoName": "Connecticut",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "269838.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "09000",
+      "GeoName": "Connecticut",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "278975.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "09000",
+      "GeoName": "Connecticut",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "286628.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "09000",
+      "GeoName": "Connecticut",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "294027.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "10000",
+      "GeoName": "Delaware",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "72506.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "10000",
+      "GeoName": "Delaware",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "74657.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "10000",
+      "GeoName": "Delaware",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "77149.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "10000",
+      "GeoName": "Delaware",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "78014.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "10000",
+      "GeoName": "Delaware",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "79652.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "11000",
+      "GeoName": "District of Columbia",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "137640.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "11000",
+      "GeoName": "District of Columbia",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "143141.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "11000",
+      "GeoName": "District of Columbia",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "144554.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "11000",
+      "GeoName": "District of Columbia",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "146024.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "11000",
+      "GeoName": "District of Columbia",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "148020.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "12000",
+      "GeoName": "Florida",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1069758.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "12000",
+      "GeoName": "Florida",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1170526.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "12000",
+      "GeoName": "Florida",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1239883.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "12000",
+      "GeoName": "Florida",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1292787.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "12000",
+      "GeoName": "Florida",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1339618.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "13000",
+      "GeoName": "Georgia",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "604745.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "13000",
+      "GeoName": "Georgia",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "643013.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "13000",
+      "GeoName": "Georgia",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "665678.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "13000",
+      "GeoName": "Georgia",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "678201.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "13000",
+      "GeoName": "Georgia",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "701072.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "15000",
+      "GeoName": "Hawaii",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "79840.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "15000",
+      "GeoName": "Hawaii",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "84408.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "15000",
+      "GeoName": "Hawaii",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "86887.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "15000",
+      "GeoName": "Hawaii",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "88614.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "15000",
+      "GeoName": "Hawaii",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "90280.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "16000",
+      "GeoName": "Idaho",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "82717.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "16000",
+      "GeoName": "Idaho",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "88969.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "16000",
+      "GeoName": "Idaho",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "92903.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "16000",
+      "GeoName": "Idaho",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "95897.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "16000",
+      "GeoName": "Idaho",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "99603.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "17000",
+      "GeoName": "Illinois",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "810200.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "17000",
+      "GeoName": "Illinois",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "855888.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "17000",
+      "GeoName": "Illinois",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "876536.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "17000",
+      "GeoName": "Illinois",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "885651.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "17000",
+      "GeoName": "Illinois",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "895342.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "18000",
+      "GeoName": "Indiana",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "359787.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "18000",
+      "GeoName": "Indiana",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "387122.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "18000",
+      "GeoName": "Indiana",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "399280.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "18000",
+      "GeoName": "Indiana",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "404290.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "18000",
+      "GeoName": "Indiana",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "419472.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "19000",
+      "GeoName": "Iowa",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "186328.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "19000",
+      "GeoName": "Iowa",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "201147.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "19000",
+      "GeoName": "Iowa",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "201580.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "19000",
+      "GeoName": "Iowa",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "202051.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "19000",
+      "GeoName": "Iowa",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "201096.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "20000",
+      "GeoName": "Kansas",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "168056.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "20000",
+      "GeoName": "Kansas",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "172782.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "20000",
+      "GeoName": "Kansas",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "177470.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "20000",
+      "GeoName": "Kansas",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "183795.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "20000",
+      "GeoName": "Kansas",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "185720.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "21000",
+      "GeoName": "Kentucky",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "206049.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "21000",
+      "GeoName": "Kentucky",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "215133.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "21000",
+      "GeoName": "Kentucky",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "219755.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "21000",
+      "GeoName": "Kentucky",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "224418.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "21000",
+      "GeoName": "Kentucky",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "229885.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "22000",
+      "GeoName": "Louisiana",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "228951.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "22000",
+      "GeoName": "Louisiana",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "237839.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "22000",
+      "GeoName": "Louisiana",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "236854.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "22000",
+      "GeoName": "Louisiana",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "248615.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "22000",
+      "GeoName": "Louisiana",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "256422.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "23000",
+      "GeoName": "Maine",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "67410.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "23000",
+      "GeoName": "Maine",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "71142.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "23000",
+      "GeoName": "Maine",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "73036.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "23000",
+      "GeoName": "Maine",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "75195.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "23000",
+      "GeoName": "Maine",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "77477.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "24000",
+      "GeoName": "Maryland",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "388782.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "24000",
+      "GeoName": "Maryland",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "406953.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "24000",
+      "GeoName": "Maryland",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "416406.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "24000",
+      "GeoName": "Maryland",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "422866.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "24000",
+      "GeoName": "Maryland",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "432192.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "25000",
+      "GeoName": "Massachusetts",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "559765.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "25000",
+      "GeoName": "Massachusetts",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "595911.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "25000",
+      "GeoName": "Massachusetts",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "608052.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "25000",
+      "GeoName": "Massachusetts",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "615504.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "25000",
+      "GeoName": "Massachusetts",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "633617.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "26000",
+      "GeoName": "Michigan",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "501893.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "26000",
+      "GeoName": "Michigan",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "530380.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "26000",
+      "GeoName": "Michigan",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "543720.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "26000",
+      "GeoName": "Michigan",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "554256.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "26000",
+      "GeoName": "Michigan",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "566033.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "27000",
+      "GeoName": "Minnesota",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "357475.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "27000",
+      "GeoName": "Minnesota",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "377947.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "27000",
+      "GeoName": "Minnesota",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "384727.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "27000",
+      "GeoName": "Minnesota",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "390907.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "27000",
+      "GeoName": "Minnesota",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "395307.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "28000",
+      "GeoName": "Mississippi",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "110322.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "28000",
+      "GeoName": "Mississippi",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "115675.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "28000",
+      "GeoName": "Mississippi",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "116557.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "28000",
+      "GeoName": "Mississippi",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "119548.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "28000",
+      "GeoName": "Mississippi",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "122438.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "29000",
+      "GeoName": "Missouri",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "315332.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "29000",
+      "GeoName": "Missouri",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "331580.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "29000",
+      "GeoName": "Missouri",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "339652.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "29000",
+      "GeoName": "Missouri",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "348487.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "29000",
+      "GeoName": "Missouri",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "356653.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "30000",
+      "GeoName": "Montana",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "49981.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "30000",
+      "GeoName": "Montana",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "53303.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "30000",
+      "GeoName": "Montana",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "55193.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "30000",
+      "GeoName": "Montana",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "57373.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "30000",
+      "GeoName": "Montana",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "58519.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "31000",
+      "GeoName": "Nebraska",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "126734.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "31000",
+      "GeoName": "Nebraska",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "134939.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "31000",
+      "GeoName": "Nebraska",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "139440.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "31000",
+      "GeoName": "Nebraska",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "145019.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "31000",
+      "GeoName": "Nebraska",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "145909.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "32000",
+      "GeoName": "Nevada",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "166077.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "32000",
+      "GeoName": "Nevada",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "182474.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "32000",
+      "GeoName": "Nevada",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "190463.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "32000",
+      "GeoName": "Nevada",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "195405.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "32000",
+      "GeoName": "Nevada",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "200921.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "33000",
+      "GeoName": "New Hampshire",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "83152.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "33000",
+      "GeoName": "New Hampshire",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "89949.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "33000",
+      "GeoName": "New Hampshire",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "91416.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "33000",
+      "GeoName": "New Hampshire",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "93466.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "33000",
+      "GeoName": "New Hampshire",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "96501.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "34000",
+      "GeoName": "New Jersey",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "597221.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "34000",
+      "GeoName": "New Jersey",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "632463.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "34000",
+      "GeoName": "New Jersey",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "650235.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "34000",
+      "GeoName": "New Jersey",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "663888.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "34000",
+      "GeoName": "New Jersey",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "678968.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "35000",
+      "GeoName": "New Mexico",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "97622.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "35000",
+      "GeoName": "New Mexico",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "100917.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "35000",
+      "GeoName": "New Mexico",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "103301.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "35000",
+      "GeoName": "New Mexico",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "110323.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "35000",
+      "GeoName": "New Mexico",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "112800.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "36000",
+      "GeoName": "New York",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1656784.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "36000",
+      "GeoName": "New York",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1736222.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "36000",
+      "GeoName": "New York",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1765102.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "36000",
+      "GeoName": "New York",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1791210.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "36000",
+      "GeoName": "New York",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1834560.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "37000",
+      "GeoName": "North Carolina",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "564504.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "37000",
+      "GeoName": "North Carolina",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "600217.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "37000",
+      "GeoName": "North Carolina",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "619537.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "37000",
+      "GeoName": "North Carolina",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "638067.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "37000",
+      "GeoName": "North Carolina",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "661947.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "38000",
+      "GeoName": "North Dakota",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "55850.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "38000",
+      "GeoName": "North Dakota",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "56419.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "38000",
+      "GeoName": "North Dakota",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "55988.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "38000",
+      "GeoName": "North Dakota",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "60348.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "38000",
+      "GeoName": "North Dakota",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "59916.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "39000",
+      "GeoName": "Ohio",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "655243.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "39000",
+      "GeoName": "Ohio",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "690478.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "39000",
+      "GeoName": "Ohio",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "695257.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "39000",
+      "GeoName": "Ohio",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "709816.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "39000",
+      "GeoName": "Ohio",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "727262.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "40000",
+      "GeoName": "Oklahoma",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "191560.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "40000",
+      "GeoName": "Oklahoma",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "194132.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "40000",
+      "GeoName": "Oklahoma",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "193940.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "40000",
+      "GeoName": "Oklahoma",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "207923.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "40000",
+      "GeoName": "Oklahoma",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "212783.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "41000",
+      "GeoName": "Oregon",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "237424.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "41000",
+      "GeoName": "Oregon",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "250325.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "41000",
+      "GeoName": "Oregon",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "256062.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "41000",
+      "GeoName": "Oregon",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "261951.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "41000",
+      "GeoName": "Oregon",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "265146.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "42000",
+      "GeoName": "Pennsylvania",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "736381.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "42000",
+      "GeoName": "Pennsylvania",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "765508.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "42000",
+      "GeoName": "Pennsylvania",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "779360.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "42000",
+      "GeoName": "Pennsylvania",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "799228.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "42000",
+      "GeoName": "Pennsylvania",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "818529.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "44000",
+      "GeoName": "Rhode Island",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "58231.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "44000",
+      "GeoName": "Rhode Island",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "60803.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "44000",
+      "GeoName": "Rhode Island",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "62279.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "44000",
+      "GeoName": "Rhode Island",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "63277.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "44000",
+      "GeoName": "Rhode Island",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "65281.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "45000",
+      "GeoName": "South Carolina",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "233650.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "45000",
+      "GeoName": "South Carolina",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "245752.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "45000",
+      "GeoName": "South Carolina",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "254504.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "45000",
+      "GeoName": "South Carolina",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "262298.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "45000",
+      "GeoName": "South Carolina",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "273324.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "46000",
+      "GeoName": "South Dakota",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "52770.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "46000",
+      "GeoName": "South Dakota",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "55515.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "46000",
+      "GeoName": "South Dakota",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "55259.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "46000",
+      "GeoName": "South Dakota",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "57275.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "46000",
+      "GeoName": "South Dakota",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "57498.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "47000",
+      "GeoName": "Tennessee",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "367863.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "47000",
+      "GeoName": "Tennessee",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "400243.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "47000",
+      "GeoName": "Tennessee",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "414470.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "47000",
+      "GeoName": "Tennessee",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "422087.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "47000",
+      "GeoName": "Tennessee",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "432266.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "48000",
+      "GeoName": "Texas",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1773657.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "48000",
+      "GeoName": "Texas",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1879101.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "48000",
+      "GeoName": "Texas",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1952708.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "48000",
+      "GeoName": "Texas",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2097090.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "48000",
+      "GeoName": "Texas",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2172368.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "49000",
+      "GeoName": "Utah",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "194750.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "49000",
+      "GeoName": "Utah",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "210446.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "49000",
+      "GeoName": "Utah",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "217442.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "49000",
+      "GeoName": "Utah",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "225459.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "49000",
+      "GeoName": "Utah",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "235715.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "50000",
+      "GeoName": "Vermont",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "32252.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "50000",
+      "GeoName": "Vermont",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "33721.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "50000",
+      "GeoName": "Vermont",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "34752.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "50000",
+      "GeoName": "Vermont",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "35236.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "50000",
+      "GeoName": "Vermont",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "36041.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "51000",
+      "GeoName": "Virginia",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "534532.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "51000",
+      "GeoName": "Virginia",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "565470.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "51000",
+      "GeoName": "Virginia",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "580475.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "51000",
+      "GeoName": "Virginia",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "597597.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "51000",
+      "GeoName": "Virginia",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "616057.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "53000",
+      "GeoName": "Washington",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "589156.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "53000",
+      "GeoName": "Washington",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "630051.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "53000",
+      "GeoName": "Washington",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "644075.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "53000",
+      "GeoName": "Washington",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "677238.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "53000",
+      "GeoName": "Washington",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "702034.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "54000",
+      "GeoName": "West Virginia",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "74553.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "54000",
+      "GeoName": "West Virginia",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "75765.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "54000",
+      "GeoName": "West Virginia",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "77188.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "54000",
+      "GeoName": "West Virginia",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "80798.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "54000",
+      "GeoName": "West Virginia",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "83653.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "55000",
+      "GeoName": "Wisconsin",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "322470.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "55000",
+      "GeoName": "Wisconsin",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "334514.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "55000",
+      "GeoName": "Wisconsin",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "339747.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "55000",
+      "GeoName": "Wisconsin",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "344570.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "55000",
+      "GeoName": "Wisconsin",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "354075.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "56000",
+      "GeoName": "Wyoming",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "36198.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "56000",
+      "GeoName": "Wyoming",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "37131.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "56000",
+      "GeoName": "Wyoming",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "37827.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "56000",
+      "GeoName": "Wyoming",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "40210.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "56000",
+      "GeoName": "Wyoming",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "40516.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "91000",
+      "GeoName": "New England",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1061531.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "91000",
+      "GeoName": "New England",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1121276.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "91000",
+      "GeoName": "New England",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1148442.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "91000",
+      "GeoName": "New England",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1169288.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "91000",
+      "GeoName": "New England",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1202927.8"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "92000",
+      "GeoName": "Mideast",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3589546.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "92000",
+      "GeoName": "Mideast",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3759180.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "92000",
+      "GeoName": "Mideast",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3833059.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "92000",
+      "GeoName": "Mideast",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3901561.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "92000",
+      "GeoName": "Mideast",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "3992266.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "93000",
+      "GeoName": "Great Lakes",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2649553.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "93000",
+      "GeoName": "Great Lakes",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2798288.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "93000",
+      "GeoName": "Great Lakes",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2854331.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "93000",
+      "GeoName": "Great Lakes",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2898354.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "93000",
+      "GeoName": "Great Lakes",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2961958.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "94000",
+      "GeoName": "Plains",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1262663.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "94000",
+      "GeoName": "Plains",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1330505.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "94000",
+      "GeoName": "Plains",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1354128.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "94000",
+      "GeoName": "Plains",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1388150.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "94000",
+      "GeoName": "Plains",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "1402346.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "95000",
+      "GeoName": "Southeast",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4345697.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "95000",
+      "GeoName": "Southeast",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4641104.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "95000",
+      "GeoName": "Southeast",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4802786.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "95000",
+      "GeoName": "Southeast",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4952758.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "95000",
+      "GeoName": "Southeast",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "5117774.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "96000",
+      "GeoName": "Southwest",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2428217.3"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "96000",
+      "GeoName": "Southwest",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2569596.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "96000",
+      "GeoName": "Southwest",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2660434.4"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "96000",
+      "GeoName": "Southwest",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2838599.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "96000",
+      "GeoName": "Southwest",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "2932689.6"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "97000",
+      "GeoName": "Rocky Mountain",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "743870.7"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "97000",
+      "GeoName": "Rocky Mountain",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "796343.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "97000",
+      "GeoName": "Rocky Mountain",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "822215.2"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "97000",
+      "GeoName": "Rocky Mountain",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "856063.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "97000",
+      "GeoName": "Rocky Mountain",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "879815.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "98000",
+      "GeoName": "Far West",
+      "TimePeriod": "2020",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4055843.5"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "98000",
+      "GeoName": "Far West",
+      "TimePeriod": "2021",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4352483.0"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "98000",
+      "GeoName": "Far West",
+      "TimePeriod": "2022",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4411936.1"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "98000",
+      "GeoName": "Far West",
+      "TimePeriod": "2023",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4525827.9"
+    },
+    {
+      "Code": "SAGDP1-1",
+      "GeoFips": "98000",
+      "GeoName": "Far West",
+      "TimePeriod": "2024",
+      "CL_UNIT": "Millions of chained 2017 dollars",
+      "UNIT_MULT": "6",
+      "DataValue": "4677970.8"
+    }
+  ],
+  "metadata": {
+    "notes": {
+      "1": "Real GDP is in millions of chained 2017 dollars. Calculations are performed on unrounded data. Chained (2017) dollar series are calculated as the product of the chain-type quantity index and the 2017 current-dollar value of the corresponding series, divided by 100. Because the formula for the chain-type quantity indexes uses weights of more than one period, the corresponding chained-dollar estimates are usually not additive. The difference between the United States and sum-of-states reflects federal military and civilian activity located overseas, as well as the differences in source data used to estimate GDP by industry and the expenditures measure of real GDP.",
+      " ": "Last updated: March 28, 2025-- new statistics for 2024."
+    },
+    "dimensions": {
+      "Code": {
+        "Ordinal": null,
+        "DataType": "string",
+        "IsValue": "0"
+      },
+      "GeoFips": {
+        "Ordinal": null,
+        "DataType": "string",
+        "IsValue": "0"
+      },
+      "GeoName": {
+        "Ordinal": null,
+        "DataType": "string",
+        "IsValue": "0"
+      },
+      "TimePeriod": {
+        "Ordinal": null,
+        "DataType": "string",
+        "IsValue": "0"
+      },
+      "DataValue": {
+        "Ordinal": null,
+        "DataType": "numeric",
+        "IsValue": "1"
+      },
+      "CL_UNIT": {
+        "Ordinal": null,
+        "DataType": "string",
+        "IsValue": "0"
+      },
+      "UNIT_MULT": {
+        "Ordinal": null,
+        "DataType": "numeric",
+        "IsValue": "0"
+      }
+    },
+    "Statistic": "Real Gross Domestic Product (GDP)",
+    "UnitOfMeasure": "Millions of chained 2017 dollars",
+    "PublicTable": "SAGDP1 State annual gross domestic product (GDP) summary",
+    "UTCProductionTime": "2025-04-12T07:21:25.317",
+    "NoteRef": "1"
+  }
+}
