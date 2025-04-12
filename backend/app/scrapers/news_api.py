@@ -1,59 +1,186 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Improved NewsAPI Scraper for Tariff Dashboard
+
+This module provides an enhanced scraper for news articles related to tariffs
+using the NewsAPI service, with specific focus on identifying and extracting
+tariff and trade-related content with rich metadata.
+"""
+
 import os
 import re
 import json
 import logging
 import requests
+import pandas as pd
+from datetime import datetime
 from itertools import product
+from bs4 import BeautifulSoup
+from textblob import TextBlob
 
+# Configure logging
 logging.basicConfig(
-    level=logging.DEBUG,  
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    level=logging.INFO,  
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler("newsapi_scraper.log"),
+        logging.StreamHandler()
+    ]
 )
 logger = logging.getLogger("NewsAPI_Scraper")
 
-def fetch_articles_for_query(api_key, query, language="en", sort_by="publishedAt"):
+def fetch_articles_for_query(api_key, query, language="en", sort_by="publishedAt", page_size=25, page=1):
     """
     Fetch articles using a specific query string.
     The query string should include both a primary keyword and a signal word.
+    
+    Args:
+        api_key: NewsAPI API key
+        query: Search query string
+        language: Article language (default: English)
+        sort_by: Sorting method (default: most recently published)
+        page_size: Number of results per page (default: 25, max: 100)
+        page: Page number (default: 1)
+        
+    Returns:
+        List of article dictionaries
     """
     url = "https://newsapi.org/v2/everything"
     params = {
         "q": query,
         "language": language,
         "sortBy": sort_by,
+        "pageSize": min(page_size, 100),  # Ensure within API limits
+        "page": page,
         "apiKey": api_key
     }
-    response = requests.get(url, params=params)
-    if response.status_code == 200:
-        articles = response.json().get("articles", [])
-        logger.info(f"Query '{query}' fetched {len(articles)} articles.")
-        return articles
-    else:
-        logger.error(f"Failed to fetch articles for query: {query} ({response.status_code}) - {response.text}")
-        return []
+    try:
+        response = requests.get(url, params=params, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            articles = data.get("articles", [])
+            total_results = data.get("totalResults", 0)
+            logger.info(f"Query '{query}' fetched {len(articles)} articles (total available: {total_results}).")
+            return articles, total_results
+        else:
+            logger.error(f"Failed to fetch articles for query: {query} ({response.status_code}) - {response.text}")
+            return [], 0
+    except requests.RequestException as e:
+        logger.error(f"Request error when fetching articles: {e}")
+        return [], 0
 
-def fetch_articles_by_combinations(api_key, primary_keywords, signal_words):
+def fetch_articles_by_combinations(api_key, primary_keywords, signal_words, max_articles_per_combo=10):
     """
     Loop over every combination of a primary keyword and a signal word,
     fetch articles that contain both (using a query like: '"primary" "signal"'),
     and merge the results while deduplicating by article URL.
+    
+    Args:
+        api_key: NewsAPI API key
+        primary_keywords: List of primary search terms (e.g., "tariff")
+        signal_words: List of action words (e.g., "imposed")
+        max_articles_per_combo: Maximum articles to fetch per combination
+        
+    Returns:
+        List of unique article dictionaries
     """
     all_articles = {}
     for primary, signal in product(primary_keywords, signal_words):
         query = f'"{primary}" "{signal}"'
-        articles = fetch_articles_for_query(api_key, query)
+        articles, total = fetch_articles_for_query(
+            api_key, 
+            query, 
+            page_size=max_articles_per_combo
+        )
+        
         for article in articles:
             url = article.get("url")
             if url and url not in all_articles:
+                # Add a source identifier field for tracking
+                article["query_source"] = query
                 all_articles[url] = article
+    
     combined_articles = list(all_articles.values())
     logger.info(f"Combined total after deduplication: {len(combined_articles)} articles.")
     return combined_articles
+
+def clean_html_content(html_content):
+    """
+    Clean HTML content to extract readable text.
+    
+    Args:
+        html_content: HTML string to clean
+        
+    Returns:
+        Cleaned text without HTML tags
+    """
+    if not html_content:
+        return ""
+    
+    try:
+        # Parse HTML with BeautifulSoup
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # Remove script, style elements and comments
+        for element in soup(['script', 'style']):
+            element.decompose()
+        
+        # Get text and clean whitespace
+        text = soup.get_text(separator=' ', strip=True)
+        
+        # Normalize whitespace
+        text = re.sub(r'\s+', ' ', text).strip()
+        
+        return text
+    except Exception as e:
+        logger.warning(f"Error cleaning HTML content: {e}")
+        return html_content
+
+def analyze_sentiment(text):
+    """
+    Analyze the sentiment of a text and return a classification.
+    
+    Args:
+        text: Text to analyze
+        
+    Returns:
+        Sentiment classification ('positive', 'negative', or 'neutral')
+        and score (-1.0 to 1.0)
+    """
+    try:
+        # Use TextBlob for sentiment analysis
+        blob = TextBlob(text)
+        
+        # Get polarity score (-1 to 1)
+        polarity = blob.sentiment.polarity
+        
+        # Classify sentiment
+        if polarity > 0.1:
+            sentiment = "positive"
+        elif polarity < -0.1:
+            sentiment = "negative"
+        else:
+            sentiment = "neutral"
+        
+        return {
+            "classification": sentiment,
+            "score": polarity
+        }
+    except Exception as e:
+        logger.warning(f"Error during sentiment analysis: {e}")
+        return {"classification": "neutral", "score": 0.0}
 
 def categorize_tariff_articles(articles):
     """
     Categorize articles related to tariffs by country, industry, tariff type, and action.
     Detailed logging is added so you can trace step-by-step how fields are extracted.
+    
+    Args:
+        articles: List of article dictionaries
+        
+    Returns:
+        List of articles with additional categorization metadata
     """
     # Define keywords for countries.
     countries = {
@@ -116,6 +243,11 @@ def categorize_tariff_articles(articles):
         title = str(article.get("title") or "")
         description = str(article.get("description") or "")
         content = str(article.get("content") or "")
+        
+        # Clean HTML from content if present
+        content = clean_html_content(content)
+        
+        # Combine text for analysis
         full_text = " ".join([title, description, content]).lower()
         
         logger.debug(f"Processing article: {title[:60]}...")
@@ -185,35 +317,84 @@ def categorize_tariff_articles(articles):
                 logger.debug(f"Pattern '{pattern}' found dates: {found_dates}")
             implementation_dates.extend(found_dates)
         
-        categorized.append({
-            "article": article,
+        # Analyze sentiment
+        sentiment_data = analyze_sentiment(title + " " + description)
+        
+        # Format the data for output
+        categorized_article = {
+            "source": article.get("source", {}).get("name", "Unknown Source"),
+            "title": title,
+            "description": description,
+            "url": article.get("url"),
+            "publishedAt": article.get("publishedAt"),
             "countries": article_countries,
             "industries": article_industries,
             "tariff_types": article_tariff_types,
             "actions": article_actions,
             "tariff_rates": tariff_rates,
-            "implementation_dates": implementation_dates
-        })
+            "implementation_dates": implementation_dates,
+            "sentiment": sentiment_data
+        }
+        
+        categorized.append(categorized_article)
     
     logger.info(f"Categorized {len(categorized)} articles with tariff information.")
     return categorized
 
-def save_articles_to_json(data, filename="data/processed/tariff_news_articles.json"):
+def save_articles_to_json(data, output_dir="data"):
     """
-    Saves the categorized articles to a JSON file.
-    Ensures the output directory exists.
-    """
-    os.makedirs(os.path.dirname(filename), exist_ok=True)
-    try:
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4, ensure_ascii=False)
-        logger.info(f"Articles successfully saved to {filename}")
-    except Exception as e:
-        logger.error(f"Error saving articles: {e}")
-
-if __name__ == "__main__":
-    API_KEY = os.getenv("NEWSAPI_KEY")
+    Saves the categorized articles to a JSON file, including a latest version
+    for the dashboard to access.
     
+    Args:
+        data: List of categorized article dictionaries
+        output_dir: Directory to save the data files
+        
+    Returns:
+        Path to the latest data file
+    """
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Create timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Prepare data with timestamp
+    output_data = {
+        "timestamp": datetime.now().isoformat(),
+        "data": data
+    }
+    
+    # Save timestamped version
+    timestamped_filename = os.path.join(output_dir, f"news_data_{timestamp}.json")
+    with open(timestamped_filename, 'w', encoding="utf-8") as f:
+        json.dump(output_data, f, indent=4, ensure_ascii=False)
+    
+    # Save latest version for dashboard
+    latest_filename = os.path.join(output_dir, "news_data_latest.json")
+    with open(latest_filename, 'w', encoding="utf-8") as f:
+        json.dump(output_data, f, indent=4, ensure_ascii=False)
+    
+    logger.info(f"Articles successfully saved to {timestamped_filename} and {latest_filename}")
+    return latest_filename
+
+def run_news_scraper(max_articles_per_combo=10):
+    """
+    Main function to run the NewsAPI scraper and save the results.
+    
+    Args:
+        max_articles_per_combo: Maximum number of articles to fetch per keyword combination
+        
+    Returns:
+        Path to the latest data file
+    """
+    # Get API key from environment variable
+    API_KEY = os.getenv("NEWSAPI_KEY")
+    if not API_KEY:
+        logger.error("No NewsAPI key provided. Set NEWSAPI_KEY environment variable.")
+        return None
+    
+    # Define search keywords
     primary_keywords = [
         "tariff",
         "import duty",
@@ -230,6 +411,25 @@ if __name__ == "__main__":
         "exempted", "eliminated"
     ]
     
-    articles = fetch_articles_by_combinations(API_KEY, primary_keywords, signal_words)
+    logger.info("Starting NewsAPI tariff article scraper...")
+    
+    # Fetch articles
+    articles = fetch_articles_by_combinations(
+        API_KEY, 
+        primary_keywords, 
+        signal_words,
+        max_articles_per_combo
+    )
+    
+    # Categorize articles
     categorized_articles = categorize_tariff_articles(articles)
-    save_articles_to_json(categorized_articles)
+    
+    # Save articles
+    latest_file = save_articles_to_json(categorized_articles)
+    
+    logger.info(f"NewsAPI scraping completed. Found {len(categorized_articles)} tariff-related articles.")
+    return latest_file
+
+if __name__ == "__main__":
+    run_news_scraper()
+    print("News scraping complete.")
