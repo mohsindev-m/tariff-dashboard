@@ -116,6 +116,7 @@ def load_data():
     census_data_path = os.path.join(data_dir, "census_data_latest.json")
     whitehouse_data_path = os.path.join(data_dir, "whitehouse_data_latest.json")
     news_data_path = os.path.join(data_dir, "news_data_latest.json")
+    bea_data_path = os.path.join(data_dir, "bea_data_latest.json")
     
     data = {
         "tariff_data": None,
@@ -123,61 +124,103 @@ def load_data():
         "census_data": None,
         "whitehouse_data": None,
         "news_data": None,
+        "bea_gdp_data": None,
+        "bea_personal_income_data": None,
+        "bea_state_gdp_data": None,
         "tariff_timestamp": None,
         "qr_timestamp": None,
         "census_timestamp": None,
         "whitehouse_timestamp": None,
-        "news_timestamp": None
+        "news_timestamp": None,
+        "bea_timestamp": None
     }
     
     # Load WTO tariff data if available
     if os.path.exists(tariff_data_path):
-        with open(tariff_data_path, 'r') as f:
-            tariff_json = json.load(f)
-            if isinstance(tariff_json, dict) and "data" in tariff_json:
-                data["tariff_data"] = pd.DataFrame(tariff_json["data"])
-                data["tariff_timestamp"] = tariff_json.get("timestamp")
+        try:
+            with open(tariff_data_path, 'r') as f:
+                tariff_json = json.load(f)
+                if isinstance(tariff_json, dict) and "data" in tariff_json:
+                    data["tariff_data"] = pd.DataFrame(tariff_json["data"])
+                    data["tariff_timestamp"] = tariff_json.get("timestamp")
+        except Exception as e:
+            st.error(f"Error loading tariff data: {e}")
+
+    # Load BEA economic data
+    if os.path.exists(bea_data_path):
+        try:
+            with open(bea_data_path, 'r') as f:
+                bea_json = json.load(f)
+                if bea_json:
+                    # Load GDP data
+                    if "gdp_data" in bea_json and bea_json["gdp_data"]:
+                        data["bea_gdp_data"] = pd.DataFrame(bea_json["gdp_data"])
+                    
+                    # Load personal income data
+                    if "personal_income_data" in bea_json and bea_json["personal_income_data"]:
+                        data["bea_personal_income_data"] = pd.DataFrame(bea_json["personal_income_data"])
+                    
+                    # Load state GDP data
+                    if "state_gdp_data" in bea_json and bea_json["state_gdp_data"]:
+                        data["bea_state_gdp_data"] = pd.DataFrame(bea_json["state_gdp_data"])
+                    
+                    # Store timestamp
+                    data["bea_timestamp"] = bea_json.get("timestamp")
+        except Exception as e:
+            st.error(f"Error loading BEA data: {e}")
     
     # Load WTO QR data if available
     if os.path.exists(qr_data_path):
-        with open(qr_data_path, 'r') as f:
-            qr_json = json.load(f)
-            if isinstance(qr_json, dict) and "data" in qr_json:
-                data["qr_data"] = pd.DataFrame(qr_json["data"])
-                data["qr_timestamp"] = qr_json.get("timestamp")
+        try:
+            with open(qr_data_path, 'r') as f:
+                qr_json = json.load(f)
+                if isinstance(qr_json, dict) and "data" in qr_json:
+                    data["qr_data"] = pd.DataFrame(qr_json["data"])
+                    data["qr_timestamp"] = qr_json.get("timestamp")
+        except Exception as e:
+            st.error(f"Error loading QR data: {e}")
     
     # Load Census data if available
     if os.path.exists(census_data_path):
-        with open(census_data_path, 'r') as f:
-            census_json = json.load(f)
-            if isinstance(census_json, dict):
-                # Convert each dataset to DataFrame
-                if "trade_balance" in census_json and census_json["trade_balance"]:
-                    data["census_trade_balance"] = pd.DataFrame(census_json["trade_balance"])
-                
-                if "monthly_trade" in census_json and census_json["monthly_trade"]:
-                    data["census_monthly_trade"] = pd.DataFrame(census_json["monthly_trade"])
-                
-                if "state_data" in census_json and census_json["state_data"]:
-                    data["census_state_data"] = pd.DataFrame(census_json["state_data"])
-                
-                data["census_timestamp"] = census_json.get("timestamp")
+        try:
+            with open(census_data_path, 'r') as f:
+                census_json = json.load(f)
+                if isinstance(census_json, dict):
+                    # Convert each dataset to DataFrame
+                    if "trade_balance" in census_json and census_json["trade_balance"]:
+                        data["census_trade_balance"] = pd.DataFrame(census_json["trade_balance"])
+                    
+                    if "monthly_trade" in census_json and census_json["monthly_trade"]:
+                        data["census_monthly_trade"] = pd.DataFrame(census_json["monthly_trade"])
+                    
+                    if "state_data" in census_json and census_json["state_data"]:
+                        data["census_state_data"] = pd.DataFrame(census_json["state_data"])
+                    
+                    data["census_timestamp"] = census_json.get("timestamp")
+        except Exception as e:
+            st.error(f"Error loading Census data: {e}")
     
     # Load White House data if available
     if os.path.exists(whitehouse_data_path):
-        with open(whitehouse_data_path, 'r') as f:
-            whitehouse_json = json.load(f)
-            if isinstance(whitehouse_json, dict) and "data" in whitehouse_json:
-                data["whitehouse_data"] = pd.DataFrame(whitehouse_json["data"])
-                data["whitehouse_timestamp"] = whitehouse_json.get("timestamp")
+        try:
+            with open(whitehouse_data_path, 'r') as f:
+                whitehouse_json = json.load(f)
+                if isinstance(whitehouse_json, dict) and "data" in whitehouse_json:
+                    data["whitehouse_data"] = pd.DataFrame(whitehouse_json["data"])
+                    data["whitehouse_timestamp"] = whitehouse_json.get("timestamp")
+        except Exception as e:
+            st.error(f"Error loading White House data: {e}")
     
     # Load News data if available
     if os.path.exists(news_data_path):
-        with open(news_data_path, 'r') as f:
-            news_json = json.load(f)
-            if isinstance(news_json, dict) and "data" in news_json:
-                data["news_data"] = pd.DataFrame(news_json["data"])
-                data["news_timestamp"] = news_json.get("timestamp")
+        try:
+            with open(news_data_path, 'r') as f:
+                news_json = json.load(f)
+                if isinstance(news_json, dict) and "data" in news_json:
+                    data["news_data"] = pd.DataFrame(news_json["data"])
+                    data["news_timestamp"] = news_json.get("timestamp")
+        except Exception as e:
+            st.error(f"Error loading News data: {e}")
     
     return data
 
@@ -223,13 +266,14 @@ else:
     st.sidebar.caption("Run the NewsAPI scraper")
 
 # Main dashboard tabs
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6,tab7 = st.tabs([
     "Global Tariff Overview", 
     "Trade Balance Analysis", 
     "Quantitative Restrictions", 
     "Policy Updates",
     "News Analysis",
-    "Country Profiles"
+    "Country Profiles",
+     "U.S. Economic Data"
 ])
 
 # Tab 1: Global Tariff Overview
@@ -1453,6 +1497,226 @@ with tab6:
                 st.info("No news data available.")
     else:
         st.info("No country data available. Run the scrapers to collect data.")
+
+us_state_to_abbrev = {
+    "Alabama": "AL",
+    "Alaska": "AK",
+    "Arizona": "AZ",
+    "Arkansas": "AR",
+    "California": "CA",
+    "Colorado": "CO",
+    "Connecticut": "CT",
+    "Delaware": "DE",
+    "Florida": "FL",
+    "Georgia": "GA",
+    "Hawaii": "HI",
+    "Idaho": "ID",
+    "Illinois": "IL",
+    "Indiana": "IN",
+    "Iowa": "IA",
+    "Kansas": "KS",
+    "Kentucky": "KY",
+    "Louisiana": "LA",
+    "Maine": "ME",
+    "Maryland": "MD",
+    "Massachusetts": "MA",
+    "Michigan": "MI",
+    "Minnesota": "MN",
+    "Mississippi": "MS",
+    "Missouri": "MO",
+    "Montana": "MT",
+    "Nebraska": "NE",
+    "Nevada": "NV",
+    "New Hampshire": "NH",
+    "New Jersey": "NJ",
+    "New Mexico": "NM",
+    "New York": "NY",
+    "North Carolina": "NC",
+    "North Dakota": "ND",
+    "Ohio": "OH",
+    "Oklahoma": "OK",
+    "Oregon": "OR",
+    "Pennsylvania": "PA",
+    "Rhode Island": "RI",
+    "South Carolina": "SC",
+    "South Dakota": "SD",
+    "Tennessee": "TN",
+    "Texas": "TX",
+    "Utah": "UT",
+    "Vermont": "VT",
+    "Virginia": "VA",
+    "Washington": "WA",
+    "West Virginia": "WV",
+    "Wisconsin": "WI",
+    "Wyoming": "WY",
+    "District of Columbia": "DC",
+    "United States": "US"
+}
+
+# Tab 7: BEA Economic Data
+with tab7:
+    st.header("U.S. Economic Indicators")
+    
+    if (data["bea_gdp_data"] is None or data["bea_gdp_data"].empty) and \
+       (data["bea_personal_income_data"] is None or data["bea_personal_income_data"].empty) and \
+       (data["bea_state_gdp_data"] is None or data["bea_state_gdp_data"].empty):
+        st.warning("""
+        No BEA economic data available. To get BEA data:
+        
+        1. Run the **BEA API scraper** to collect economic indicators:
+           ```
+           python bea_api_scraper.py
+           ```
+           
+        2. This scraper will fetch GDP, personal income, and state economic data from the Bureau of Economic Analysis and save it to the data directory.
+        
+        3. After running the scraper, refresh this dashboard to see the economic data visualizations.
+        """)
+    else:
+        # Display metrics in a row
+        col1, col2, col3 = st.columns(3)
+        
+        # Display last updated timestamp
+        if data["bea_timestamp"]:
+            st.caption(f"Last updated: {data['bea_timestamp']}")
+        
+        # GDP Data Section
+        st.subheader("GDP Overview")
+        
+        if data["bea_gdp_data"] is not None and not data["bea_gdp_data"].empty:
+            # Filter for GDP Total values - field may vary based on actual data structure
+            gdp_df = data["bea_gdp_data"]
+            
+            # Create GDP trend over time
+            if "TimePeriod" in gdp_df.columns and "DataValue" in gdp_df.columns:
+                # Convert DataValue if it's string with commas
+                if gdp_df["DataValue"].dtype == 'object':
+                    gdp_df["DataValue"] = gdp_df["DataValue"].str.replace(',', '').astype(float)
+                
+                # Create line chart
+                fig = px.line(
+                    gdp_df.sort_values("TimePeriod"), 
+                    x="TimePeriod", 
+                    y="DataValue",
+                    title="U.S. GDP Trend",
+                    labels={"TimePeriod": "Time Period", "DataValue": "GDP Value"},
+                    markers=True
+                )
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("GDP data structure does not contain expected columns for time series visualization.")
+        else:
+            st.info("No GDP data available.")
+        
+        # Personal Income Data Section
+        st.subheader("Personal Income by State")
+        
+        if data["bea_personal_income_data"] is not None and not data["bea_personal_income_data"].empty:
+            income_df = data["bea_personal_income_data"]
+            
+            # Add state selection if showing per-capita income
+            selected_time_period = None
+            if "TimePeriod" in income_df.columns:
+                # Get the most recent time period
+                time_periods = sorted(income_df["TimePeriod"].unique())
+                if time_periods:
+                    selected_time_period = st.selectbox("Select Time Period", time_periods, index=len(time_periods)-1)
+            
+            if selected_time_period:
+                # Filter for selected time period
+                period_data = income_df[income_df["TimePeriod"] == selected_time_period]
+                
+                # Create choropleth map if GeoName and DataValue columns exist
+                if "GeoName" in period_data.columns and "DataValue" in period_data.columns:
+                    # Convert DataValue if it's string with commas
+                    if period_data["DataValue"].dtype == 'object':
+                        period_data["DataValue"] = period_data["DataValue"].str.replace(',', '').astype(float)
+                    
+                    # Add state codes for mapping
+                    period_data["state_code"] = period_data["GeoName"].apply(lambda x: us_state_to_abbrev.get(x, ""))
+                    
+                    # Create choropleth map
+                    fig = px.choropleth(
+                        period_data,
+                        locations="state_code",
+                        color="DataValue",
+                        scope="usa",
+                        locationmode="USA-states",
+                        color_continuous_scale="Viridis",
+                        title=f"Per Capita Personal Income by State ({selected_time_period})",
+                        labels={"DataValue": "Per Capita Income ($)"}
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+                else:
+                    st.info("Personal income data structure does not contain expected columns for map visualization.")
+        else:
+            st.info("No personal income data available.")
+        
+        # State GDP Data Section
+        if data["bea_state_gdp_data"] is not None and not data["bea_state_gdp_data"].empty:
+            st.subheader("State GDP Comparison")
+            
+            state_gdp_df = data["bea_state_gdp_data"]
+            
+            # Select time period if available
+            selected_gdp_period = None
+            if "TimePeriod" in state_gdp_df.columns:
+                gdp_periods = sorted(state_gdp_df["TimePeriod"].unique())
+                if gdp_periods:
+                    selected_gdp_period = st.selectbox("Select GDP Time Period", gdp_periods, index=len(gdp_periods)-1)
+            
+            if selected_gdp_period:
+                # Filter for selected time period
+                gdp_period_data = state_gdp_df[state_gdp_df["TimePeriod"] == selected_gdp_period]
+                
+                # Create bar chart for top states by GDP
+                if "GeoName" in gdp_period_data.columns and "DataValue" in gdp_period_data.columns:
+                    # Convert DataValue if it's string with commas
+                    if gdp_period_data["DataValue"].dtype == 'object':
+                        gdp_period_data["DataValue"] = gdp_period_data["DataValue"].str.replace(',', '').astype(float)
+                    
+                    # Get top 10 states by GDP
+                    top_states = gdp_period_data.sort_values("DataValue", ascending=False).head(10)
+                    
+                    # Create bar chart
+                    fig = px.bar(
+                        top_states,
+                        x="GeoName",
+                        y="DataValue",
+                        title=f"Top 10 States by GDP ({selected_gdp_period})",
+                        labels={"GeoName": "State", "DataValue": "GDP Value"},
+                        color="DataValue",
+                        color_continuous_scale="Viridis"
+                    )
+                    st.plotly_chart(fig, use_container_width=True)
+                else:
+                    st.info("State GDP data structure does not contain expected columns for visualization.")
+        else:
+            st.info("No state GDP data available.")
+        
+        # Add a data table with all BEA data for reference
+        st.subheader("Raw Economic Data")
+        
+        # Create tabs for different datasets
+        data_tab1, data_tab2, data_tab3 = st.tabs(["GDP Data", "Personal Income Data", "State GDP Data"])
+        
+        with data_tab1:
+            if data["bea_gdp_data"] is not None and not data["bea_gdp_data"].empty:
+                st.dataframe(data["bea_gdp_data"], use_container_width=True)
+            else:
+                st.info("No GDP data available.")
+        
+        with data_tab2:
+            if data["bea_personal_income_data"] is not None and not data["bea_personal_income_data"].empty:
+                st.dataframe(data["bea_personal_income_data"], use_container_width=True)
+            else:
+                st.info("No personal income data available.")
+        
+        with data_tab3:
+            if data["bea_state_gdp_data"] is not None and not data["bea_state_gdp_data"].empty:
+                st.dataframe(data["bea_state_gdp_data"], use_container_width=True)
+            else:
+                st.info("No state GDP data available.")
 
 # Footer
 st.markdown("""
